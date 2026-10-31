@@ -124,7 +124,7 @@ def main():
                         worst = max(worst, abs(round(scores[(net, q, g, l)].mean(), 5) - ref[key]))
     ok1 = worst < 1e-5 and n_cmp == n_all
     print(f"\nПроверка 1 (общая точность = probe_v2.csv / probe_v2_upper.csv): сверено {n_cmp} из {n_all} чисел, "
-          f"макс. расхождение {worst:.5f}  {'✅' if ok1 else '⚠️ пришли Claude весь вывод'}")
+          f"макс. расхождение {worst:.5f}  {'✅' if ok1 else '⚠️ проверь весь вывод'}")
 
     # --- раскладка
     rng = np.random.default_rng(0)
@@ -144,7 +144,7 @@ def main():
                             if l == 0:
                                 l00.append(a)
     ok2 = all(abs(x - 0.5) < 1e-12 for x in l00)
-    print(f"Проверка 2 (L00 в каждой корзине ровно 50.0%): {'✅' if ok2 else '⚠️ пришли Claude весь вывод'}")
+    print(f"Проверка 2 (L00 в каждой корзине ровно 50.0%): {'✅' if ok2 else '⚠️ проверь весь вывод'}")
 
     def get(net, q, g, l, kind, lab):
         r = [x for x in out if x[0] == net and x[1] == q and x[2] == g and x[3] == f"L{l:02d}" and x[4] == kind and x[5] == lab][0]

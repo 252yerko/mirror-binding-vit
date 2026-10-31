@@ -47,7 +47,7 @@ def main():
     A = {"MAE": load(args.mae), "I-JEPA": load(args.ijepa)}
     ids_m, ids_j = A["MAE"][0], A["I-JEPA"][0]
     ok = len(ids_m) == len(ids_j) and bool((ids_m == ids_j).all())
-    print(f"Проверка: одни и те же сцены в одном порядке: {len(ids_m)} сцен  {'✅' if ok else '⚠️ НЕТ — пришли Claude весь вывод'}")
+    print(f"Проверка: одни и те же сцены в одном порядке: {len(ids_m)} сцен  {'✅' if ok else '⚠️ НЕТ — проверь весь вывод'}")
     assert ok
     L = max(A["MAE"][4])
     assert L == max(A["I-JEPA"][4]) == 32, "ожидался последний слой L32 у обеих"

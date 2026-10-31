@@ -291,7 +291,7 @@ def main():
         weights_of[name] = weights
         note = ""
         if seed in EXPECTED_FP:
-            note = "✅ совпадает с flip_test" if abs(fp - EXPECTED_FP[seed]) < 0.01 else "⚠️ НЕ совпадает — пришли Claude весь вывод"
+            note = "✅ совпадает с flip_test" if abs(fp - EXPECTED_FP[seed]) < 0.01 else "⚠️ НЕ совпадает — проверь весь вывод"
         print(f"\n### {name}: {weights}   отпечаток весов {fp:.4f}  {note}", flush=True)
         has_cls = getattr(model, "num_prefix_tokens", 1) > 0
         assert len(model.blocks) + 1 == 33, "ожидалась ViT-H/14 с 32 блоками"
@@ -340,7 +340,7 @@ def main():
     l00 = [res[(n, q, g, 0, m)][0] for n in all_scores for q in QUERIES for g in groups if g != "twin"
            for m in all_scores[n][q][g][0]]
     ok1 = all(abs(x - 0.5) < 1e-12 for x in l00)
-    print(f"\nПроверка 1 (L00: CLS / нетронутые / дальний фон ровно 50.0%): {'✅' if ok1 else '⚠️ пришли Claude весь вывод'}  "
+    print(f"\nПроверка 1 (L00: CLS / нетронутые / дальний фон ровно 50.0%): {'✅' if ok1 else '⚠️ проверь весь вывод'}  "
           f"{sorted(set(round(x * 100, 3) for x in l00))}")
 
     for q in QUERIES:
@@ -373,7 +373,7 @@ def main():
             rs = f"{min(rr):5.1f} … {max(rr):5.1f}" if rr else "—"
             print(f"L{l:02d}  {a * 100:5.1f} [{lo * 100:5.1f} … {hi * 100:5.1f}]     {rs}")
 
-    print(f"\nПредупреждений «обучение не сошлось» всего: {warn_total}  {'✅' if warn_total == 0 else '⚠️ пришли Claude весь вывод'}")
+    print(f"\nПредупреждений «обучение не сошлось» всего: {warn_total}  {'✅' if warn_total == 0 else '⚠️ проверь весь вывод'}")
     print(f"\nИТОГ на L{LAYERS[-1]:02d} (логрег; «выше» = нижняя граница 95% инт. {main_name} больше числа):")
     for q in QUERIES:
         for g in groups:
@@ -382,7 +382,7 @@ def main():
             if g == "twin":
                 okc = a > 0.9 and all(x > 0.9 for x in rr)
                 print(f"  {QWORD[q]:8s} {NAMES[g]:28s} {main_name} {a * 100:5.1f}%   случайные мин {min(rr) * 100 if rr else float('nan'):5.1f}%   "
-                      f"контроль (у всех > 90%): {'✅' if okc else '⚠️ пришли Claude весь вывод'}")
+                      f"контроль (у всех > 90%): {'✅' if okc else '⚠️ проверь весь вывод'}")
                 continue
             print(f"  {QWORD[q]:8s} {NAMES[g]:28s} {main_name} {a * 100:5.1f}% [{lo * 100:.1f}–{hi * 100:.1f}]   "
                   f"случайные макс {max(rr) * 100 if rr else float('nan'):5.1f}%   выше 50%: {'да ✅' if lo > 0.5 else 'нет'}   "

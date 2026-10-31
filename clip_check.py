@@ -67,7 +67,7 @@ def main():
     print(f"Проверка 1 (две библиотеки, {N_EMB} картинок):")
     print(f"  timm {act_a} vs open_clip: косинус мин {float(ab.min()):.6f}, среднее {float(ab.mean()):.6f}")
     print(f"  timm {act_c} vs open_clip: косинус мин {float(cb.min()):.6f}, среднее {float(cb.mean()):.6f}  (для сравнения)")
-    print(f"  {'✅ наш CLIP совпадает с независимой реализацией' if ok1 else '⚠️ пришли Claude весь вывод'}")
+    print(f"  {'✅ наш CLIP совпадает с независимой реализацией' if ok1 else '⚠️ проверь весь вывод'}")
 
     # ---------- проверка 2
     texts = tok([f"a photo of a {c} object" for c in colors])
@@ -88,7 +88,7 @@ def main():
     ok2 = acc >= ch + 0.15
     print(f"Проверка 2 (CLIP по тексту называет цвет, который есть на сцене; {len(hits)} сцен):")
     print(f"  точность {acc * 100:.1f}%   уровень случайности {ch * 100:.1f}%   "
-          f"{'✅ картинка подготовлена правильно' if ok2 else '⚠️ пришли Claude весь вывод'}")
+          f"{'✅ картинка подготовлена правильно' if ok2 else '⚠️ проверь весь вывод'}")
     print(f"Цвета: {', '.join(colors)}")
 
 

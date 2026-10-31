@@ -135,7 +135,7 @@ def main():
         print()
 
     z = max(out["unchanged"]["sw"][0], out["unchanged"]["rc"][0], out["background"]["sw"][0], out["background"]["rc"][0])
-    print(f"Проверка L00 (нетронутые и фон должны быть 0): {z:.6f}  {'✅' if z < 1e-3 else '⚠️ пришли Claude весь вывод'}")
+    print(f"Проверка L00 (нетронутые и фон должны быть 0): {z:.6f}  {'✅' if z < 1e-3 else '⚠️ проверь весь вывод'}")
 
     # --- числа
     with open(f"{stem}.csv", "w", newline="") as fh:

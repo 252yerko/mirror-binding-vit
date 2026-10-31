@@ -218,7 +218,7 @@ def main():
     agree = [(a, b, (tw[a][SUB] == tw[b][SUB]).mean()) for i, a in enumerate(QUERIES) for b in QUERIES[i + 1:]]
     ok4 = all(abs(p - 0.5) < 0.1 for _, _, p in agree)
     print("Проверка 4 (один и тот же близнец у двух вопросов, на подмножестве; ≈50% = ответы не связаны): " +
-          ", ".join(f"{QSHORT[a]}/{QSHORT[b]} {p * 100:.1f}%" for a, b, p in agree) + f"  {'✅' if ok4 else '⚠️ пришли Claude весь вывод'}")
+          ", ".join(f"{QSHORT[a]}/{QSHORT[b]} {p * 100:.1f}%" for a, b, p in agree) + f"  {'✅' if ok4 else '⚠️ проверь весь вывод'}")
     print(f"Проверка пикселей ✅ (в дальнем фоне S и Sp совпадают во всех сценах)")
     print(f"Проба: StandardScaler + логрег C={pv.C_REG}, {pv.N_FOLDS} фолдов по сценам (как probe_v2.py). Уровень мешка признаков = 50%")
 
@@ -252,21 +252,21 @@ def main():
                         worst = max(worst, abs(round(float(np.nanmean(sc[(q, g, l)])), 5) - refd[key]))
     ok1 = n_cmp == n_all and worst < 1e-5
     print(f"\nПроверка 1 («левый»/«верхний» по всем сценам = {REF_CSV[args.model]['left']} / {REF_CSV[args.model]['upper']}): "
-          f"сверено {n_cmp} из {n_all} чисел, макс. расхождение {worst:.5f}  {'✅' if ok1 else '⚠️ пришли Claude весь вывод'}")
+          f"сверено {n_cmp} из {n_all} чисел, макс. расхождение {worst:.5f}  {'✅' if ok1 else '⚠️ проверь весь вывод'}")
 
     # --- проверка 2: L00 ровно 50%
     l00 = [v for _, _, sc in res for q in QUERIES for g in GROUPS
            for v in (np.nanmean(sc[(q, g, 0)]), np.nanmean(sc[(q, g, 0)][SUB]))]
     ok2 = all(abs(v - 0.5) < 1e-12 for v in l00)
     print(f"Проверка 2 (L00: CLS и дальний фон ровно 50,0% у всех вопросов и сетей, все сцены и подмножество): "
-          f"{'✅' if ok2 else '⚠️ пришли Claude весь вывод'}  {sorted(set(round(v * 100, 3) for v in l00))}")
+          f"{'✅' if ok2 else '⚠️ проверь весь вывод'}  {sorted(set(round(v * 100, 3) for v in l00))}")
 
     # --- проверка 3: контроль
     cvals = [(a, q, l, float(np.nanmean(sc[(q, 'control', l)]))) for a, _, sc in res for q in QUERIES for l in CONTROL_LAYERS]
     ok3 = all(v > 0.9 for *_, v in cvals)
     print(f"Проверка 3 (контроль: патчи самого близнеца-«вопроса», L00 и L12, > 90%): мин {min(v for *_, v in cvals) * 100:.1f}%  "
-          f"{'✅' if ok3 else '⚠️ пришли Claude весь вывод'}")
-    print(f"Проверка 5 (предупреждений «обучение не сошлось»): {total_warn}  {'✅' if total_warn == 0 else '⚠️ пришли Claude весь вывод'}")
+          f"{'✅' if ok3 else '⚠️ проверь весь вывод'}")
+    print(f"Проверка 5 (предупреждений «обучение не сошлось»): {total_warn}  {'✅' if total_warn == 0 else '⚠️ проверь весь вывод'}")
 
     # --- парный бутстрэп на подмножестве
     rng = np.random.default_rng(0)
@@ -336,7 +336,7 @@ def main():
         elif D[1] > 0:
             verdict = "ПРОМЕЖУТОЧНО: D > 0, но разрыв «середина» больше половины разрыва «сторона»"
         else:
-            verdict = "НЕОЖИДАННО: разрыв «середина» больше разрыва «сторона» — пришли Claude весь вывод"
+            verdict = "НЕОЖИДАННО: разрыв «середина» больше разрыва «сторона» — проверь весь вывод"
         print(f"  {NAMES[g]:12s} «сторона» {gs[0] * 100:5.1f} [{gs[1] * 100:.1f}…{gs[2] * 100:.1f}]   "
               f"«середина» {gm[0] * 100:5.1f} [{gm[1] * 100:.1f}…{gm[2] * 100:.1f}]   D {D[0] * 100:5.1f} [{D[1] * 100:.1f}…{D[2] * 100:.1f}]"
               f"   сер.↑↓ {t['cy'][0] * 100:.1f} (нижн. гр. {cy_lo * 100:.1f}; случайные макс {cy_rmax * 100:.1f})\n      → {verdict}")

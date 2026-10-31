@@ -111,7 +111,7 @@ def check_forward(model, x, outs):
         mine = model.forward_head(model.norm(outs[-1]))
     d = float((mine - ref).abs().max())
     print(f"Проверка прогона (наши слои = прогон самой модели): макс. разница {d:.2e}  "
-          f"{'✅' if d < 1e-3 else '⚠️ пришли Claude весь вывод'}")
+          f"{'✅' if d < 1e-3 else '⚠️ проверь весь вывод'}")
 
 
 def load_model(arch, random_init=None):
@@ -147,7 +147,7 @@ def check_random(model, arch="dino"):
         trained = load_model(arch)[0]
     except Exception as e:
         print(f"⚠️ Не смог загрузить обученную модель для сравнения ({type(e).__name__}). "
-              f"Отпечаток случайных весов: {rnd:.4f}. Пришли Claude весь вывод.")
+              f"Отпечаток случайных весов: {rnd:.4f}. Проверь весь вывод.")
         return
     tr = fingerprint(trained)
     same = all(torch.equal(a, b) for a, b in zip(model.state_dict().values(), trained.state_dict().values()))

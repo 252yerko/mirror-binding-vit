@@ -273,7 +273,7 @@ def main():
     iou_h, iou_v = np.array(iou_h), np.array(iou_v)
     ok2 = abs(iou_h.mean() - iou_v.mean()) < 0.01 and min(iou_h.mean(), iou_v.mean()) > 0.95
     print(f"Проверка 2 (фигуры симметричны): совпадение с зеркалом слева-направо {iou_h.mean():.4f}, "
-          f"сверху-вниз {iou_v.mean():.4f} (объектов {len(iou_h)})  {'✅' if ok2 else '⚠️ пришли Claude весь вывод'}")
+          f"сверху-вниз {iou_v.mean():.4f} (объектов {len(iou_h)})  {'✅' if ok2 else '⚠️ проверь весь вывод'}")
 
     # --- справка: асимметрия самих данных (средний патч 16×16, сравнение с его зеркалами)
     ah, av = [], []
@@ -300,7 +300,7 @@ def main():
         if seed is not None and seed in EXPECTED_FP:
             ok3 = abs(fp - EXPECTED_FP[seed]) < 0.01
             print(f"\n### {name}: {weights}   отпечаток весов {fp:.4f}  "
-                  f"{'✅ совпадает с extract.py' if ok3 else '⚠️ НЕ совпадает — пришли Claude весь вывод'}")
+                  f"{'✅ совпадает с extract.py' if ok3 else '⚠️ НЕ совпадает — проверь весь вывод'}")
         elif seed is not None:
             print(f"\n### {name}: {weights}   отпечаток весов {fp:.4f}  (сверить не с чем: активаций этой сети ещё нет)")
         else:
@@ -317,7 +317,7 @@ def main():
         fb = features(model, torch.cat([blank, blank.flip(3), blank.flip(2)]), device)
         z = max(cos_dist(fb[0], fb[1]).max(), cos_dist(fb[0], fb[2]).max())
         print(f"  Проверка 1 (пустой фон: зеркало ничего не меняет): макс. расстояние {z:.2e}  "
-              f"{'✅' if z < 1e-4 else '⚠️ пришли Claude весь вывод'}")
+              f"{'✅' if z < 1e-4 else '⚠️ проверь весь вывод'}")
 
         F = {"orig": [], "h": [], "v": []}
         for s in range(0, len(imgs), BATCH):

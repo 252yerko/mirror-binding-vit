@@ -44,7 +44,7 @@ def main():
         assert os.path.exists(f), f"нет файла {f} — сначала запусти flip_test.py --model mae и --model ijepa"
     (ids_m, mod_m, dm), (ids_j, mod_j, dj) = load(FILES["MAE"], "MAE"), load(FILES["I-JEPA"], "I-JEPA")
     ok = len(ids_m) == len(ids_j) and bool((ids_m == ids_j).all())
-    print(f"Проверка: одни и те же сцены в одном порядке у MAE и I-JEPA: {len(ids_m)} сцен  {'✅' if ok else '⚠️ НЕТ — пришли Claude весь вывод'}")
+    print(f"Проверка: одни и те же сцены в одном порядке у MAE и I-JEPA: {len(ids_m)} сцен  {'✅' if ok else '⚠️ НЕТ — проверь весь вывод'}")
     assert ok
     assert mod_m[0] == "MAE" and mod_j[0] == "I-JEPA", (mod_m, mod_j)
     nl = dm.shape[2]

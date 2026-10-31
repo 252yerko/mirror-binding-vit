@@ -287,7 +287,7 @@ def main():
     l00 = [r[m][g][0][0] for _, r, _ in full for m in MODELS for g in ("cls", "unchanged", "far_bg")]
     ok = all(abs(x - 0.5) < 1e-12 for x in l00)
     print(f"\nПроверка L00 (CLS, нетронутые, дальний фон должны быть ровно 50.0%): "
-          f"{'✅' if ok else '⚠️ пришли Claude весь вывод'}  {sorted(set(round(x * 100, 3) for x in l00))}")
+          f"{'✅' if ok else '⚠️ проверь весь вывод'}  {sorted(set(round(x * 100, 3) for x in l00))}")
 
     # --- таблица
     print(f"\nТочность пробы «какого цвета {QWORD[QUERY]} близнец», {PROBE_LONG[MODELS[0]]} (50% = мешок признаков)")
@@ -308,7 +308,7 @@ def main():
         print(f"  {NAMES[g]:12s} пик L{lp:02d} {accs[lp] * 100:5.1f}% [{dino[g][lp][1] * 100:.1f}–{dino[g][lp][2] * 100:.1f}]   "
               f"L12 {accs[-1] * 100:5.1f}% [{dino[g][-1][1] * 100:.1f}–{dino[g][-1][2] * 100:.1f}]   падение {100 * (accs[lp] - accs[-1]):4.1f} п.п.")
 
-    print(f"\nПредупреждений «обучение не сошлось» всего: {total_warn}  {'✅' if total_warn == 0 else '⚠️ пришли Claude весь вывод'}")
+    print(f"\nПредупреждений «обучение не сошлось» всего: {total_warn}  {'✅' if total_warn == 0 else '⚠️ проверь весь вывод'}")
 
     if rand:
         for m in MODELS:
@@ -320,7 +320,7 @@ def main():
                 if g == GROUPS[3]:     # положительный контроль: сам видит свой цвет, ~100% ожидается у ВСЕХ сетей
                     ok_c = a > 0.9 and all(r[g][-1][0] > 0.9 for r in rr)
                     print(f"  {NAMES[g]:26s} {ref} {a * 100:5.1f}%   случайные мин {min(r[g][-1][0] for r in rr) * 100:5.1f}%   "
-                          f"контроль (у всех сетей > 90%): {'✅' if ok_c else '⚠️ пришли Claude весь вывод'}")
+                          f"контроль (у всех сетей > 90%): {'✅' if ok_c else '⚠️ проверь весь вывод'}")
                     continue
                 print(f"  {NAMES[g]:26s} {ref} {a * 100:5.1f}% [{lo * 100:.1f}–{hi * 100:.1f}]   случайные макс {rmax * 100:5.1f}%   "
                       f"выше 50%: {'да ✅' if lo > 0.5 else 'нет'}   выше всех случайных: {'да ✅' if lo > rmax else 'нет'}")
