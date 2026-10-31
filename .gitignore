@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+data/
+data_v2/
+acts*/
+*.npy
+*.npz
+*_log.txt
+*.csv
+*.part
+_старые_версии/
+_to_delete/
+.DS_Store

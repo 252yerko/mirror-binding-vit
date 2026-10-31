@@ -1,0 +1,9 @@
+torch>=2.4
+torchvision
+timm==1.0.30
+open_clip_torch
+numpy
+scikit-learn
+pandas
+matplotlib
+pillow
