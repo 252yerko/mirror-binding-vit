@@ -1,0 +1,361 @@
+net,weights,probe,query,group,layer,acc,ci_lo,ci_hi,n_scenes
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,cls,L00,0.50000,0.50000,0.50000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,cls,L00,0.50000,0.50000,0.50000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,cls,L04,0.72775,0.71449,0.74025,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,cls,L04,0.68875,0.67424,0.70226,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,cls,L08,0.71425,0.70199,0.72675,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,cls,L08,0.68900,0.67600,0.70302,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,cls,L12,0.76225,0.75074,0.77426,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,cls,L12,0.75950,0.74750,0.77225,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,cls,L16,0.79225,0.78074,0.80426,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,cls,L16,0.79150,0.77900,0.80301,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,cls,L20,0.80450,0.79349,0.81550,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,cls,L20,0.80100,0.79000,0.81301,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,cls,L24,0.80500,0.79324,0.81550,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,cls,L24,0.80225,0.79100,0.81351,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,cls,L28,0.81700,0.80650,0.82801,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,cls,L28,0.79725,0.78625,0.80751,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,cls,L32,0.82425,0.81250,0.83500,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,cls,L32,0.79200,0.78025,0.80375,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,unchanged,L00,0.50000,0.50000,0.50000,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,unchanged,L00,0.50000,0.50000,0.50000,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,unchanged,L04,0.55187,0.53955,0.56493,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,unchanged,L04,0.52015,0.50522,0.53508,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,unchanged,L08,0.57052,0.55858,0.58322,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,unchanged,L08,0.53731,0.52351,0.55113,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,unchanged,L12,0.57052,0.55744,0.58321,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,unchanged,L12,0.51418,0.50111,0.52799,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,unchanged,L16,0.63022,0.61678,0.64403,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,unchanged,L16,0.56567,0.55000,0.57948,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,unchanged,L20,0.62351,0.60896,0.63694,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,unchanged,L20,0.56455,0.55112,0.57836,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,unchanged,L24,0.59067,0.57910,0.60261,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,unchanged,L24,0.53918,0.52611,0.55224,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,unchanged,L28,0.57612,0.56306,0.58769,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,unchanged,L28,0.52724,0.51418,0.54067,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,unchanged,L32,0.58321,0.57090,0.59478,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,unchanged,L32,0.52276,0.50970,0.53582,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,far_bg,L00,0.50000,0.50000,0.50000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,far_bg,L00,0.50000,0.50000,0.50000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,far_bg,L04,0.62825,0.61424,0.64051,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,far_bg,L04,0.56475,0.55074,0.57900,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,far_bg,L08,0.69925,0.68625,0.71200,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,far_bg,L08,0.63050,0.61600,0.64426,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,far_bg,L12,0.68875,0.67600,0.70100,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,far_bg,L12,0.62275,0.60975,0.63550,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,far_bg,L16,0.72225,0.70999,0.73475,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,far_bg,L16,0.66675,0.65400,0.67925,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,far_bg,L20,0.73450,0.72249,0.74650,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,far_bg,L20,0.68950,0.67674,0.70125,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,far_bg,L24,0.72125,0.70849,0.73425,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,far_bg,L24,0.65600,0.64200,0.66876,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,far_bg,L28,0.71025,0.69824,0.72151,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,far_bg,L28,0.64525,0.63275,0.65751,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,far_bg,L32,0.70050,0.68875,0.71251,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,far_bg,L32,0.61350,0.60125,0.62675,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,twin,L00,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,twin,L00,0.97375,0.96875,0.97850,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,twin,L04,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,twin,L04,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,twin,L08,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,twin,L08,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,twin,L12,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,twin,L12,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,twin,L16,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,twin,L16,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,twin,L20,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,twin,L20,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,twin,L24,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,twin,L24,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,twin,L28,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,twin,L28,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,left,twin,L32,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,left,twin,L32,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,cls,L00,0.50000,0.50000,0.50000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,cls,L00,0.50000,0.50000,0.50000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,cls,L04,0.75250,0.73949,0.76575,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,cls,L04,0.70750,0.69324,0.72101,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,cls,L08,0.77700,0.76525,0.78951,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,cls,L08,0.77125,0.75900,0.78500,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,cls,L12,0.80350,0.79200,0.81525,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,cls,L12,0.82100,0.80974,0.83201,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,cls,L16,0.86725,0.85650,0.87700,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,cls,L16,0.89400,0.88450,0.90325,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,cls,L20,0.88200,0.87250,0.89050,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,cls,L20,0.90300,0.89475,0.91225,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,cls,L24,0.89025,0.88125,0.89925,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,cls,L24,0.90125,0.89150,0.91050,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,cls,L28,0.89400,0.88499,0.90325,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,cls,L28,0.90575,0.89625,0.91501,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,cls,L32,0.89200,0.88275,0.90175,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,cls,L32,0.89500,0.88624,0.90426,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,unchanged,L00,0.50000,0.50000,0.50000,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,unchanged,L00,0.50000,0.50000,0.50000,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,unchanged,L04,0.56679,0.55373,0.57985,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,unchanged,L04,0.52910,0.51454,0.54403,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,unchanged,L08,0.62276,0.60896,0.63658,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,unchanged,L08,0.57463,0.55933,0.58918,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,unchanged,L12,0.64366,0.62948,0.65785,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,unchanged,L12,0.57761,0.56269,0.59291,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,unchanged,L16,0.77276,0.75933,0.78731,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,unchanged,L16,0.72985,0.71381,0.74515,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,unchanged,L20,0.74067,0.72686,0.75449,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,unchanged,L20,0.68470,0.66903,0.69852,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,unchanged,L24,0.70597,0.69216,0.71978,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,unchanged,L24,0.63358,0.61903,0.64851,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,unchanged,L28,0.67537,0.66155,0.68993,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,unchanged,L28,0.60410,0.58955,0.61755,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,unchanged,L32,0.66642,0.65336,0.67911,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,unchanged,L32,0.59403,0.57985,0.60784,1340
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,far_bg,L00,0.50000,0.50000,0.50000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,far_bg,L00,0.50000,0.50000,0.50000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,far_bg,L04,0.70425,0.69074,0.71826,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,far_bg,L04,0.60275,0.58924,0.61625,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,far_bg,L08,0.72900,0.71699,0.74276,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,far_bg,L08,0.65850,0.64500,0.67175,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,far_bg,L12,0.77925,0.76749,0.79176,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,far_bg,L12,0.72850,0.71625,0.74100,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,far_bg,L16,0.83725,0.82600,0.84800,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,far_bg,L16,0.82725,0.81649,0.83825,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,far_bg,L20,0.83900,0.82800,0.85000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,far_bg,L20,0.83675,0.82650,0.84725,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,far_bg,L24,0.84125,0.83000,0.85151,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,far_bg,L24,0.81300,0.80049,0.82400,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,far_bg,L28,0.80150,0.79025,0.81350,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,far_bg,L28,0.76025,0.74750,0.77275,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,far_bg,L32,0.80150,0.79000,0.81276,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,far_bg,L32,0.72700,0.71425,0.73900,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,twin,L00,0.99975,0.99925,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,twin,L00,0.97000,0.96425,0.97525,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,twin,L04,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,twin,L04,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,twin,L08,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,twin,L08,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,twin,L12,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,twin,L12,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,twin,L16,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,twin,L16,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,twin,L20,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,twin,L20,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,twin,L24,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,twin,L24,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,twin,L28,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,twin,L28,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),logreg,upper,twin,L32,1.00000,1.00000,1.00000,2000
+MAE,обученный MAE (timm vit_huge_patch14_224.mae),ridge,upper,twin,L32,1.00000,1.00000,1.00000,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,cls,L00,0.50000,0.50000,0.50000,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,cls,L04,0.50575,0.49150,0.52001,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,cls,L08,0.50075,0.48574,0.51525,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,cls,L12,0.50800,0.49425,0.52175,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,cls,L16,0.50925,0.49424,0.52350,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,cls,L20,0.51525,0.50100,0.52926,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,cls,L24,0.51925,0.50500,0.53401,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,cls,L28,0.51400,0.49999,0.52851,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,cls,L32,0.50700,0.49250,0.52075,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,unchanged,L00,0.50000,0.50000,0.50000,1340
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,unchanged,L04,0.49813,0.48881,0.50746,1340
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,unchanged,L08,0.49664,0.48731,0.50710,1340
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,unchanged,L12,0.48843,0.47761,0.49963,1340
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,unchanged,L16,0.49888,0.48806,0.51046,1340
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,unchanged,L20,0.49179,0.48060,0.50261,1340
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,unchanged,L24,0.50075,0.48954,0.51194,1340
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,unchanged,L28,0.49963,0.48769,0.51120,1340
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,unchanged,L32,0.49403,0.48283,0.50523,1340
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,far_bg,L00,0.50000,0.50000,0.50000,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,far_bg,L04,0.50550,0.49174,0.52026,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,far_bg,L08,0.50700,0.49325,0.52200,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,far_bg,L12,0.50425,0.49049,0.51750,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,far_bg,L16,0.50400,0.48949,0.51750,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,far_bg,L20,0.49625,0.48199,0.50976,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,far_bg,L24,0.49850,0.48450,0.51325,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,far_bg,L28,0.49500,0.47924,0.51000,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,far_bg,L32,0.49225,0.47825,0.50601,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,twin,L00,1.00000,1.00000,1.00000,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,twin,L04,1.00000,1.00000,1.00000,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,twin,L08,1.00000,1.00000,1.00000,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,twin,L12,1.00000,1.00000,1.00000,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,twin,L16,1.00000,1.00000,1.00000,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,twin,L20,1.00000,1.00000,1.00000,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,twin,L24,1.00000,1.00000,1.00000,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,twin,L28,1.00000,1.00000,1.00000,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,left,twin,L32,1.00000,1.00000,1.00000,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,cls,L00,0.50000,0.50000,0.50000,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,cls,L04,0.51450,0.50099,0.52826,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,cls,L08,0.51925,0.50574,0.53276,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,cls,L12,0.51950,0.50575,0.53350,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,cls,L16,0.51950,0.50425,0.53351,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,cls,L20,0.51925,0.50474,0.53350,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,cls,L24,0.51700,0.50350,0.53200,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,cls,L28,0.51650,0.50300,0.53051,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,cls,L32,0.51950,0.50549,0.53451,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,unchanged,L00,0.50000,0.50000,0.50000,1340
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,unchanged,L04,0.50037,0.49142,0.50933,1340
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,unchanged,L08,0.50448,0.49478,0.51456,1340
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,unchanged,L12,0.50336,0.49327,0.51381,1340
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,unchanged,L16,0.50149,0.49067,0.51269,1340
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,unchanged,L20,0.50299,0.49216,0.51381,1340
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,unchanged,L24,0.50075,0.48955,0.51269,1340
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,unchanged,L28,0.49142,0.47910,0.50299,1340
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,unchanged,L32,0.50112,0.49067,0.51158,1340
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,far_bg,L00,0.50000,0.50000,0.50000,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,far_bg,L04,0.52825,0.51350,0.54250,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,far_bg,L08,0.51425,0.50025,0.52825,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,far_bg,L12,0.51575,0.50099,0.53025,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,far_bg,L16,0.51525,0.50074,0.52876,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,far_bg,L20,0.52275,0.50849,0.53600,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,far_bg,L24,0.51600,0.50250,0.53125,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,far_bg,L28,0.52400,0.51049,0.53725,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,far_bg,L32,0.52250,0.50825,0.53625,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,twin,L00,1.00000,1.00000,1.00000,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,twin,L04,1.00000,1.00000,1.00000,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,twin,L08,1.00000,1.00000,1.00000,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,twin,L12,1.00000,1.00000,1.00000,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,twin,L16,1.00000,1.00000,1.00000,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,twin,L20,1.00000,1.00000,1.00000,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,twin,L24,1.00000,1.00000,1.00000,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,twin,L28,1.00000,1.00000,1.00000,2000
+mae_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 0",logreg,upper,twin,L32,1.00000,1.00000,1.00000,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,cls,L00,0.50000,0.50000,0.50000,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,cls,L04,0.50200,0.48749,0.51551,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,cls,L08,0.50475,0.49050,0.51876,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,cls,L12,0.50975,0.49500,0.52401,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,cls,L16,0.51050,0.49674,0.52426,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,cls,L20,0.50550,0.49324,0.52001,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,cls,L24,0.50950,0.49575,0.52426,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,cls,L28,0.49950,0.48525,0.51326,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,cls,L32,0.50975,0.49549,0.52376,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,unchanged,L00,0.50000,0.50000,0.50000,1340
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,unchanged,L04,0.50410,0.49478,0.51381,1340
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,unchanged,L08,0.49179,0.48133,0.50299,1340
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,unchanged,L12,0.50112,0.49029,0.51306,1340
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,unchanged,L16,0.49254,0.48246,0.50336,1340
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,unchanged,L20,0.49328,0.48209,0.50448,1340
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,unchanged,L24,0.49515,0.48321,0.50710,1340
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,unchanged,L28,0.49030,0.47836,0.50187,1340
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,unchanged,L32,0.49328,0.48208,0.50410,1340
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,far_bg,L00,0.50000,0.50000,0.50000,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,far_bg,L04,0.50375,0.49100,0.51876,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,far_bg,L08,0.50975,0.49624,0.52400,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,far_bg,L12,0.51725,0.50225,0.53175,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,far_bg,L16,0.51350,0.49875,0.52701,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,far_bg,L20,0.51150,0.49675,0.52651,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,far_bg,L24,0.50925,0.49650,0.52325,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,far_bg,L28,0.50725,0.49325,0.52075,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,far_bg,L32,0.50325,0.48950,0.51775,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,twin,L00,1.00000,1.00000,1.00000,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,twin,L04,1.00000,1.00000,1.00000,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,twin,L08,1.00000,1.00000,1.00000,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,twin,L12,1.00000,1.00000,1.00000,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,twin,L16,1.00000,1.00000,1.00000,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,twin,L20,1.00000,1.00000,1.00000,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,twin,L24,1.00000,1.00000,1.00000,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,twin,L28,1.00000,1.00000,1.00000,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,left,twin,L32,1.00000,1.00000,1.00000,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,cls,L00,0.50000,0.50000,0.50000,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,cls,L04,0.50825,0.49374,0.52250,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,cls,L08,0.51775,0.50300,0.53201,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,cls,L12,0.51250,0.49900,0.52826,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,cls,L16,0.50950,0.49549,0.52450,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,cls,L20,0.51225,0.49700,0.52676,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,cls,L24,0.50875,0.49325,0.52226,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,cls,L28,0.50300,0.48874,0.51800,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,cls,L32,0.51150,0.49800,0.52525,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,unchanged,L00,0.50000,0.50000,0.50000,1340
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,unchanged,L04,0.49888,0.48993,0.50821,1340
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,unchanged,L08,0.50261,0.49291,0.51343,1340
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,unchanged,L12,0.50373,0.49366,0.51419,1340
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,unchanged,L16,0.49627,0.48581,0.50822,1340
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,unchanged,L20,0.50634,0.49552,0.51679,1340
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,unchanged,L24,0.50858,0.49738,0.52015,1340
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,unchanged,L28,0.50746,0.49590,0.51866,1340
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,unchanged,L32,0.51194,0.50037,0.52463,1340
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,far_bg,L00,0.50000,0.50000,0.50000,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,far_bg,L04,0.51150,0.49775,0.52451,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,far_bg,L08,0.51175,0.49724,0.52626,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,far_bg,L12,0.51275,0.49900,0.52775,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,far_bg,L16,0.50900,0.49525,0.52351,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,far_bg,L20,0.50425,0.48949,0.51875,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,far_bg,L24,0.50325,0.48825,0.51826,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,far_bg,L28,0.50250,0.48825,0.51676,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,far_bg,L32,0.50250,0.48875,0.51675,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,twin,L00,1.00000,1.00000,1.00000,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,twin,L04,1.00000,1.00000,1.00000,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,twin,L08,1.00000,1.00000,1.00000,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,twin,L12,1.00000,1.00000,1.00000,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,twin,L16,1.00000,1.00000,1.00000,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,twin,L20,1.00000,1.00000,1.00000,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,twin,L24,1.00000,1.00000,1.00000,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,twin,L28,1.00000,1.00000,1.00000,2000
+mae_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 1",logreg,upper,twin,L32,1.00000,1.00000,1.00000,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,cls,L00,0.50000,0.50000,0.50000,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,cls,L04,0.51675,0.50249,0.53076,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,cls,L08,0.51075,0.49650,0.52526,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,cls,L12,0.51800,0.50399,0.53150,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,cls,L16,0.51625,0.50149,0.53075,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,cls,L20,0.50875,0.49375,0.52126,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,cls,L24,0.51225,0.49750,0.52675,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,cls,L28,0.51650,0.50175,0.53026,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,cls,L32,0.51800,0.50450,0.53225,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,unchanged,L00,0.50000,0.50000,0.50000,1340
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,unchanged,L04,0.50149,0.49291,0.51045,1340
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,unchanged,L08,0.49963,0.49030,0.50933,1340
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,unchanged,L12,0.50000,0.48917,0.50971,1340
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,unchanged,L16,0.50224,0.49179,0.51269,1340
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,unchanged,L20,0.50746,0.49552,0.51791,1340
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,unchanged,L24,0.49701,0.48619,0.50858,1340
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,unchanged,L28,0.49403,0.48172,0.50522,1340
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,unchanged,L32,0.50075,0.48954,0.51231,1340
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,far_bg,L00,0.50000,0.50000,0.50000,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,far_bg,L04,0.50675,0.49225,0.52051,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,far_bg,L08,0.51250,0.49725,0.52601,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,far_bg,L12,0.51500,0.50024,0.52925,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,far_bg,L16,0.50725,0.49324,0.52276,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,far_bg,L20,0.50650,0.49124,0.52076,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,far_bg,L24,0.50100,0.48775,0.51551,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,far_bg,L28,0.50750,0.49374,0.52175,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,far_bg,L32,0.51450,0.49999,0.52800,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,twin,L00,1.00000,1.00000,1.00000,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,twin,L04,1.00000,1.00000,1.00000,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,twin,L08,1.00000,1.00000,1.00000,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,twin,L12,1.00000,1.00000,1.00000,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,twin,L16,1.00000,1.00000,1.00000,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,twin,L20,1.00000,1.00000,1.00000,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,twin,L24,1.00000,1.00000,1.00000,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,twin,L28,1.00000,1.00000,1.00000,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,left,twin,L32,1.00000,1.00000,1.00000,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,cls,L00,0.50000,0.50000,0.50000,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,cls,L04,0.51425,0.49875,0.52901,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,cls,L08,0.50675,0.49249,0.52201,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,cls,L12,0.51000,0.49549,0.52476,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,cls,L16,0.50675,0.49225,0.52051,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,cls,L20,0.50650,0.49150,0.51951,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,cls,L24,0.50750,0.49300,0.52051,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,cls,L28,0.50700,0.49150,0.52202,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,cls,L32,0.51175,0.49675,0.52626,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,unchanged,L00,0.50000,0.50000,0.50000,1340
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,unchanged,L04,0.50560,0.49627,0.51530,1340
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,unchanged,L08,0.49888,0.48918,0.50934,1340
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,unchanged,L12,0.49515,0.48545,0.50524,1340
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,unchanged,L16,0.49813,0.48806,0.50896,1340
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,unchanged,L20,0.49403,0.48209,0.50523,1340
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,unchanged,L24,0.50560,0.49440,0.51680,1340
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,unchanged,L28,0.50634,0.49552,0.51716,1340
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,unchanged,L32,0.50000,0.48993,0.51083,1340
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,far_bg,L00,0.50000,0.50000,0.50000,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,far_bg,L04,0.50625,0.49175,0.51900,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,far_bg,L08,0.51525,0.50049,0.52926,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,far_bg,L12,0.51100,0.49750,0.52450,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,far_bg,L16,0.51625,0.50300,0.53075,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,far_bg,L20,0.51175,0.49825,0.52600,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,far_bg,L24,0.50675,0.49425,0.52025,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,far_bg,L28,0.51100,0.49724,0.52526,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,far_bg,L32,0.51100,0.49724,0.52525,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,twin,L00,1.00000,1.00000,1.00000,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,twin,L04,1.00000,1.00000,1.00000,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,twin,L08,1.00000,1.00000,1.00000,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,twin,L12,1.00000,1.00000,1.00000,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,twin,L16,1.00000,1.00000,1.00000,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,twin,L20,1.00000,1.00000,1.00000,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,twin,L24,1.00000,1.00000,1.00000,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,twin,L28,1.00000,1.00000,1.00000,2000
+mae_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_224 (нулевая модель), seed 2",logreg,upper,twin,L32,1.00000,1.00000,1.00000,2000

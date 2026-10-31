@@ -11,3 +11,8 @@ acts*/
 _старые_версии/
 _to_delete/
 .DS_Store
+
+# results/ keeps the original small outputs
+!results/
+!results/*.csv
+!results/*_log.txt

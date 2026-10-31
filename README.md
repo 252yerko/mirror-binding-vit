@@ -1,6 +1,6 @@
 # Mirror Invariance and Attribute Binding in Vision Transformers
 
-**Status:** work in progress (independent research, since September 2026). A preprint for arXiv (cs.CV) is in preparation.
+**Status:** work in progress (independent research, since September 2026; dated log in [`LOG.md`](LOG.md)). A preprint for arXiv (cs.CV) is in preparation.
 **Author:** Yernazar Gabdrakhman
 
 ## Question
@@ -18,7 +18,7 @@ This project asks whether Vision Transformers (ViTs) store attribute binding, in
 - **Probes.** At every layer, a linear probe (logistic regression; ridge as a robustness check; cross-validated by scene) predicts the color of the *left* or *upper* twin. It reads from the CLS token, from untouched objects, or from background patches at least 3 patches away from both twins. A bag-of-features representation scores **exactly 50%** by construction.
 - **Controls.** Layer 0 (must be exactly 50%), three randomly initialized networks per architecture, and a positive control (the twin's own patches, ~100%). All intervals are 95% bootstrap CIs over scenes.
 - **Mirror test.** For scenes made only of mirror-symmetric shapes, we measure how much a left–right flip changes the representation compared with an up–down flip (`flip_test.py`). A value of 1 means both flips matter equally; lower means the model is blind to left vs. right.
-- **Pre-registration.** For each experiment, the decision rule and a prediction are written down before the run. The rules are recorded in the headers of the scripts.
+- **Rules and predictions written down before each run.** For each experiment, the decision rule (and my own prediction) was recorded in the project notebook before the run; they are not externally timestamped. English versions and the scored predictions (1 hit out of 4 resolved so far) are in [`PREDICTIONS_AND_RULES.md`](PREDICTIONS_AND_RULES.md). Future predictions will be registered on OSF.
 
 Models: DINO ViT-B/16, OpenAI CLIP ViT-B/16, MAE ViT-H/14, I-JEPA ViT-H/14 (target encoder).
 
@@ -27,13 +27,16 @@ Models: DINO ViT-B/16, OpenAI CLIP ViT-B/16, MAE ViT-H/14, I-JEPA ViT-H/14 (targ
 | | DINO | CLIP | MAE | I-JEPA |
 |---|---|---|---|---|
 | Mirror sensitivity, last layer (CLS / patch mean; random ≈ 1) | 0.34 / 0.28 | 0.65 / 0.61 | 0.67 / 0.63 | — / 0.40 |
-| Binding gap "upper − left", far background, last layer (pp) | 18.6 | 9.0 | 10.1 | in progress |
+| Binding gap "upper − left", **far background**, last layer (pp) | 18.6 | 9.0 | 10.1 | in progress |
+| Binding gap "upper − left", **CLS**, last layer (pp) | 20.4 | 9.3 | 6.8 | no CLS |
+
+Last layer: L12 for DINO and CLIP (ViT-B/16), L32 for MAE and I-JEPA (ViT-H/14). Every number names the token group it comes from; the source CSVs and logs are in [`results/`](results/).
 
 1. **Binding is learned and readable.** In DINO, the left twin's color is decoded with up to 78.2% accuracy (layer 3); the upper twin's with 83.9% at layer 12. Random networks stay at 49–52%.
 2. **Left–right binding fades where mirror invariance appears.** From layer 4 on, DINO's left–right binding drops (to 63.5% at layer 12) while up–down binding stays. In the same layers DINO becomes almost blind to left–right mirroring (0.34 [0.32, 0.35]).
-3. **DINO "folds" the image.** It loses *which side* an object is on but keeps *how far* it is from the vertical midline (pre-registered rule; D = 19.5 [16.5, 22.6] for DINO vs. 4.9 [1.7, 8.2] for CLIP). See Figure 1.
-4. **Flip augmentation is not the cause.** In a pre-registered comparison of models with the same size and training data, I-JEPA, which never saw flipped images, is *more* mirror-blind than MAE, which did: Δ = −0.22 [−0.30, −0.15]. The training objective or the statistics of natural images are the remaining candidates.
-5. **MAE fits the pattern so far.** Its binding gap (10.1 [8.5, 11.6] pp) is close to CLIP's at a similar mirror sensitivity. The I-JEPA probe is still running.
+3. **DINO "folds" the image.** It loses *which side* an object is on but keeps *how far* it is from the vertical midline (rule fixed before the run; D = 19.5 [16.5, 22.6] for DINO vs. 4.9 [1.7, 8.2] for CLIP). See Figure 1.
+4. **In these two models, flip augmentation is neither necessary nor sufficient for mirror blindness.** In a comparison with a rule fixed before the run (same size and training data), I-JEPA, which never saw flipped images, is *more* mirror-blind than MAE, which did: Δ = −0.22 [−0.30, −0.15] (patch mean, last layer). MAE and I-JEPA also differ in their training objective, so this is not a clean test of a single factor; the objective and the statistics of natural images remain candidates.
+5. **MAE fits the pattern so far.** Its binding gap on the far background (10.1 [8.5, 11.6] pp) is close to CLIP's (9.0) at a similar mirror sensitivity. The I-JEPA probe is still running.
 
 These are correlations across a few models on synthetic scenes. Causal tests (interventions on internal representations) are the next step.
 
@@ -62,7 +65,7 @@ python probe_big_compare.py                            # MAE vs. I-JEPA binding 
 python figure1.py                                      # Figure 1
 ```
 
-Each script's header (in Russian) explains what it tests, the pre-registered rule and its built-in checks. Activations and generated images are not stored in the repository; the scripts recreate them.
+Each script's header (in Russian) explains what it tests, the decision rule and its built-in checks; English versions of the rules are in [`PREDICTIONS_AND_RULES.md`](PREDICTIONS_AND_RULES.md). Activations and generated images are not stored in the repository; the scripts recreate them. The original outputs (small CSVs and logs) are in [`results/`](results/).
 
 ## Files
 

@@ -1,0 +1,8 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Проверка 1 (две библиотеки, 16 картинок):
+  timm QuickGELU vs open_clip: косинус мин 1.000000, среднее 1.000000
+  timm GELU vs open_clip: косинус мин 0.954758, среднее 0.969172  (для сравнения)
+  ✅ наш CLIP совпадает с независимой реализацией
+Проверка 2 (CLIP по тексту называет цвет, который есть на сцене; 200 сцен):
+  точность 84.0%   уровень случайности 50.6%   ✅ картинка подготовлена правильно
+Цвета: blue, cyan, green, magenta, red, yellow

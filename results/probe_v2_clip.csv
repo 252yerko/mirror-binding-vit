@@ -1,0 +1,417 @@
+acts,weights,probe,group,layer,acc,ci_lo,ci_hi,n_scenes
+acts_v2_clip,обученный CLIP (OpenAI),logreg,cls,L00,0.50000,0.50000,0.50000,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,cls,L01,0.56100,0.54799,0.57475,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,cls,L02,0.58200,0.56924,0.59626,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,cls,L03,0.62525,0.61174,0.63775,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,cls,L04,0.67950,0.66550,0.69275,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,cls,L05,0.72025,0.70750,0.73327,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,cls,L06,0.70725,0.69475,0.71900,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,cls,L07,0.70050,0.68849,0.71225,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,cls,L08,0.71700,0.70475,0.72976,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,cls,L09,0.68775,0.67499,0.70000,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,cls,L10,0.67525,0.66375,0.68751,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,cls,L11,0.64950,0.63775,0.66101,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,cls,L12,0.63800,0.62625,0.65026,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,unchanged,L00,0.50000,0.50000,0.50000,1340
+acts_v2_clip,обученный CLIP (OpenAI),logreg,unchanged,L01,0.50672,0.49366,0.51903,1340
+acts_v2_clip,обученный CLIP (OpenAI),logreg,unchanged,L02,0.50373,0.49104,0.51642,1340
+acts_v2_clip,обученный CLIP (OpenAI),logreg,unchanged,L03,0.51119,0.49925,0.52425,1340
+acts_v2_clip,обученный CLIP (OpenAI),logreg,unchanged,L04,0.52575,0.51342,0.53806,1340
+acts_v2_clip,обученный CLIP (OpenAI),logreg,unchanged,L05,0.54627,0.53246,0.55896,1340
+acts_v2_clip,обученный CLIP (OpenAI),logreg,unchanged,L06,0.53358,0.52164,0.54478,1340
+acts_v2_clip,обученный CLIP (OpenAI),logreg,unchanged,L07,0.54366,0.53208,0.55560,1340
+acts_v2_clip,обученный CLIP (OpenAI),logreg,unchanged,L08,0.54963,0.53656,0.56157,1340
+acts_v2_clip,обученный CLIP (OpenAI),logreg,unchanged,L09,0.56642,0.55448,0.57873,1340
+acts_v2_clip,обученный CLIP (OpenAI),logreg,unchanged,L10,0.55410,0.54253,0.56642,1340
+acts_v2_clip,обученный CLIP (OpenAI),logreg,unchanged,L11,0.53881,0.52724,0.55000,1340
+acts_v2_clip,обученный CLIP (OpenAI),logreg,unchanged,L12,0.56231,0.54924,0.57463,1340
+acts_v2_clip,обученный CLIP (OpenAI),logreg,far_bg,L00,0.50000,0.50000,0.50000,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,far_bg,L01,0.53800,0.52499,0.55075,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,far_bg,L02,0.56125,0.54849,0.57451,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,far_bg,L03,0.59525,0.58175,0.60800,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,far_bg,L04,0.67850,0.66550,0.69076,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,far_bg,L05,0.71400,0.70349,0.72651,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,far_bg,L06,0.72525,0.71199,0.73700,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,far_bg,L07,0.70025,0.68950,0.71250,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,far_bg,L08,0.67425,0.66250,0.68601,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,far_bg,L09,0.66725,0.65650,0.67851,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,far_bg,L10,0.65350,0.64224,0.66475,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,far_bg,L11,0.63150,0.62024,0.64125,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,far_bg,L12,0.63150,0.62174,0.64400,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,left_twin,L00,1.00000,1.00000,1.00000,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,left_twin,L01,1.00000,1.00000,1.00000,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,left_twin,L02,1.00000,1.00000,1.00000,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,left_twin,L03,1.00000,1.00000,1.00000,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,left_twin,L04,1.00000,1.00000,1.00000,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,left_twin,L05,1.00000,1.00000,1.00000,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,left_twin,L06,1.00000,1.00000,1.00000,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,left_twin,L07,1.00000,1.00000,1.00000,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,left_twin,L08,1.00000,1.00000,1.00000,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,left_twin,L09,1.00000,1.00000,1.00000,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,left_twin,L10,1.00000,1.00000,1.00000,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,left_twin,L11,1.00000,1.00000,1.00000,2000
+acts_v2_clip,обученный CLIP (OpenAI),logreg,left_twin,L12,1.00000,1.00000,1.00000,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,cls,L00,0.50000,0.50000,0.50000,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,cls,L01,0.53600,0.52200,0.54951,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,cls,L02,0.54125,0.52599,0.55550,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,cls,L03,0.58725,0.57350,0.60200,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,cls,L04,0.63050,0.61749,0.64451,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,cls,L05,0.70475,0.69200,0.71800,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,cls,L06,0.66600,0.65275,0.67950,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,cls,L07,0.65475,0.64149,0.66775,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,cls,L08,0.68575,0.67350,0.69801,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,cls,L09,0.64725,0.63450,0.65976,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,cls,L10,0.62550,0.61274,0.63851,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,cls,L11,0.59800,0.58700,0.61000,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,cls,L12,0.58900,0.57799,0.60050,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,unchanged,L00,0.50000,0.50000,0.50000,1340
+acts_v2_clip,обученный CLIP (OpenAI),ridge,unchanged,L01,0.49813,0.48470,0.51119,1340
+acts_v2_clip,обученный CLIP (OpenAI),ridge,unchanged,L02,0.49813,0.48396,0.51194,1340
+acts_v2_clip,обученный CLIP (OpenAI),ridge,unchanged,L03,0.50896,0.49439,0.52201,1340
+acts_v2_clip,обученный CLIP (OpenAI),ridge,unchanged,L04,0.50224,0.48918,0.51493,1340
+acts_v2_clip,обученный CLIP (OpenAI),ridge,unchanged,L05,0.53470,0.52051,0.54776,1340
+acts_v2_clip,обученный CLIP (OpenAI),ridge,unchanged,L06,0.51269,0.50111,0.52575,1340
+acts_v2_clip,обученный CLIP (OpenAI),ridge,unchanged,L07,0.52425,0.51379,0.53657,1340
+acts_v2_clip,обученный CLIP (OpenAI),ridge,unchanged,L08,0.51679,0.50372,0.52985,1340
+acts_v2_clip,обученный CLIP (OpenAI),ridge,unchanged,L09,0.52612,0.51455,0.53806,1340
+acts_v2_clip,обученный CLIP (OpenAI),ridge,unchanged,L10,0.51455,0.50299,0.52688,1340
+acts_v2_clip,обученный CLIP (OpenAI),ridge,unchanged,L11,0.51231,0.50075,0.52277,1340
+acts_v2_clip,обученный CLIP (OpenAI),ridge,unchanged,L12,0.53284,0.51940,0.54478,1340
+acts_v2_clip,обученный CLIP (OpenAI),ridge,far_bg,L00,0.50000,0.50000,0.50000,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,far_bg,L01,0.51725,0.50499,0.52925,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,far_bg,L02,0.52875,0.51599,0.54125,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,far_bg,L03,0.53550,0.52200,0.55025,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,far_bg,L04,0.58475,0.57200,0.59901,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,far_bg,L05,0.64425,0.63049,0.65651,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,far_bg,L06,0.67525,0.66275,0.68751,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,far_bg,L07,0.63375,0.62150,0.64675,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,far_bg,L08,0.60625,0.59475,0.61700,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,far_bg,L09,0.60200,0.59099,0.61201,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,far_bg,L10,0.59350,0.58275,0.60475,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,far_bg,L11,0.58950,0.57874,0.59975,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,far_bg,L12,0.58100,0.56975,0.59250,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,left_twin,L00,0.97475,0.97000,0.97950,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,left_twin,L01,1.00000,1.00000,1.00000,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,left_twin,L02,1.00000,1.00000,1.00000,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,left_twin,L03,1.00000,1.00000,1.00000,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,left_twin,L04,1.00000,1.00000,1.00000,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,left_twin,L05,1.00000,1.00000,1.00000,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,left_twin,L06,1.00000,1.00000,1.00000,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,left_twin,L07,1.00000,1.00000,1.00000,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,left_twin,L08,1.00000,1.00000,1.00000,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,left_twin,L09,1.00000,1.00000,1.00000,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,left_twin,L10,1.00000,1.00000,1.00000,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,left_twin,L11,1.00000,1.00000,1.00000,2000
+acts_v2_clip,обученный CLIP (OpenAI),ridge,left_twin,L12,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,cls,L00,0.50000,0.50000,0.50000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,cls,L01,0.51175,0.49824,0.52476,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,cls,L02,0.51550,0.50124,0.52975,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,cls,L03,0.51400,0.50000,0.52800,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,cls,L04,0.51225,0.49949,0.52576,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,cls,L05,0.52275,0.50874,0.53750,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,cls,L06,0.51875,0.50500,0.53301,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,cls,L07,0.52125,0.50550,0.53525,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,cls,L08,0.51775,0.50300,0.53201,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,cls,L09,0.51600,0.50174,0.53026,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,cls,L10,0.52100,0.50699,0.53550,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,cls,L11,0.51825,0.50425,0.53201,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,cls,L12,0.52225,0.50850,0.53625,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,unchanged,L00,0.50000,0.50000,0.50000,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,unchanged,L01,0.50037,0.49627,0.50448,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,unchanged,L02,0.49963,0.49552,0.50373,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,unchanged,L03,0.49851,0.49328,0.50336,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,unchanged,L04,0.49925,0.49291,0.50560,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,unchanged,L05,0.50261,0.49626,0.50859,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,unchanged,L06,0.50522,0.49925,0.51045,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,unchanged,L07,0.49440,0.48881,0.50000,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,unchanged,L08,0.49627,0.49067,0.50187,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,unchanged,L09,0.50037,0.49403,0.50672,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,unchanged,L10,0.50634,0.50000,0.51194,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,unchanged,L11,0.49925,0.49328,0.50486,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,unchanged,L12,0.49813,0.49216,0.50410,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,far_bg,L00,0.50000,0.50000,0.50000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,far_bg,L01,0.50550,0.49275,0.51875,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,far_bg,L02,0.50350,0.48950,0.51575,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,far_bg,L03,0.50925,0.49625,0.52300,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,far_bg,L04,0.51100,0.49824,0.52476,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,far_bg,L05,0.50375,0.49075,0.51826,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,far_bg,L06,0.50825,0.49500,0.52075,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,far_bg,L07,0.51850,0.50575,0.53200,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,far_bg,L08,0.50950,0.49625,0.52250,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,far_bg,L09,0.51350,0.50024,0.52725,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,far_bg,L10,0.51200,0.49774,0.52601,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,far_bg,L11,0.50975,0.49550,0.52275,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,far_bg,L12,0.50975,0.49674,0.52300,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,left_twin,L00,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,left_twin,L01,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,left_twin,L02,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,left_twin,L03,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,left_twin,L04,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,left_twin,L05,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,left_twin,L06,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,left_twin,L07,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,left_twin,L08,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,left_twin,L09,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,left_twin,L10,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,left_twin,L11,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",logreg,left_twin,L12,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,cls,L00,0.50000,0.50000,0.50000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,cls,L01,0.50625,0.49275,0.51950,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,cls,L02,0.51275,0.49850,0.52625,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,cls,L03,0.51275,0.49923,0.52600,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,cls,L04,0.50875,0.49474,0.52175,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,cls,L05,0.51000,0.49750,0.52275,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,cls,L06,0.50500,0.49150,0.51775,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,cls,L07,0.51400,0.50050,0.52750,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,cls,L08,0.51625,0.50350,0.53000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,cls,L09,0.51100,0.49875,0.52376,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,cls,L10,0.51025,0.49675,0.52276,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,cls,L11,0.51875,0.50375,0.53125,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,cls,L12,0.51025,0.49724,0.52451,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,unchanged,L00,0.50000,0.50000,0.50000,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,unchanged,L01,0.49851,0.49515,0.50149,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,unchanged,L02,0.49963,0.49626,0.50299,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,unchanged,L03,0.50000,0.49552,0.50410,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,unchanged,L04,0.49776,0.49366,0.50150,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,unchanged,L05,0.50261,0.49888,0.50672,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,unchanged,L06,0.49776,0.49254,0.50299,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,unchanged,L07,0.50075,0.49552,0.50560,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,unchanged,L08,0.49813,0.49327,0.50299,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,unchanged,L09,0.49925,0.49403,0.50448,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,unchanged,L10,0.49776,0.49366,0.50224,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,unchanged,L11,0.50224,0.49776,0.50634,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,unchanged,L12,0.49739,0.49254,0.50224,1340
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,far_bg,L00,0.50000,0.50000,0.50000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,far_bg,L01,0.50925,0.49775,0.52125,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,far_bg,L02,0.50800,0.49449,0.52151,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,far_bg,L03,0.50475,0.49175,0.51775,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,far_bg,L04,0.50400,0.49125,0.51651,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,far_bg,L05,0.50500,0.49100,0.51751,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,far_bg,L06,0.50600,0.49275,0.51925,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,far_bg,L07,0.50850,0.49449,0.52200,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,far_bg,L08,0.50825,0.49474,0.52175,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,far_bg,L09,0.50800,0.49350,0.52126,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,far_bg,L10,0.51450,0.50100,0.52825,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,far_bg,L11,0.51175,0.49849,0.52425,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,far_bg,L12,0.50850,0.49475,0.52150,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,left_twin,L00,0.95875,0.95250,0.96475,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,left_twin,L01,0.99950,0.99875,1.00000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,left_twin,L02,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,left_twin,L03,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,left_twin,L04,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,left_twin,L05,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,left_twin,L06,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,left_twin,L07,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,left_twin,L08,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,left_twin,L09,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,left_twin,L10,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,left_twin,L11,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand0,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 0",ridge,left_twin,L12,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,cls,L00,0.50000,0.50000,0.50000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,cls,L01,0.51250,0.49975,0.52575,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,cls,L02,0.51600,0.50149,0.53026,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,cls,L03,0.51900,0.50474,0.53450,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,cls,L04,0.51950,0.50649,0.53450,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,cls,L05,0.51875,0.50450,0.53300,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,cls,L06,0.51175,0.49800,0.52500,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,cls,L07,0.51775,0.50399,0.53127,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,cls,L08,0.51975,0.50475,0.53300,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,cls,L09,0.52875,0.51500,0.54251,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,cls,L10,0.52400,0.51050,0.53876,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,cls,L11,0.51575,0.50224,0.52976,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,cls,L12,0.52425,0.50949,0.53826,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,unchanged,L00,0.50000,0.50000,0.50000,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,unchanged,L01,0.50299,0.49813,0.50784,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,unchanged,L02,0.50261,0.49701,0.50784,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,unchanged,L03,0.50075,0.49515,0.50634,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,unchanged,L04,0.50000,0.49440,0.50522,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,unchanged,L05,0.49888,0.49291,0.50448,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,unchanged,L06,0.49963,0.49366,0.50597,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,unchanged,L07,0.50224,0.49627,0.50896,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,unchanged,L08,0.50299,0.49739,0.50896,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,unchanged,L09,0.50000,0.49403,0.50635,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,unchanged,L10,0.49888,0.49254,0.50522,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,unchanged,L11,0.49851,0.49216,0.50448,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,unchanged,L12,0.49851,0.49142,0.50560,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,far_bg,L00,0.50000,0.50000,0.50000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,far_bg,L01,0.51525,0.50274,0.52825,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,far_bg,L02,0.50875,0.49600,0.52275,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,far_bg,L03,0.50250,0.48925,0.51675,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,far_bg,L04,0.51000,0.49649,0.52300,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,far_bg,L05,0.51225,0.49925,0.52526,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,far_bg,L06,0.52100,0.50775,0.53450,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,far_bg,L07,0.51350,0.50024,0.52626,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,far_bg,L08,0.51575,0.50149,0.52850,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,far_bg,L09,0.52425,0.51074,0.53751,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,far_bg,L10,0.52025,0.50649,0.53476,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,far_bg,L11,0.51450,0.49999,0.52825,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,far_bg,L12,0.52275,0.50800,0.53675,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,left_twin,L00,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,left_twin,L01,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,left_twin,L02,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,left_twin,L03,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,left_twin,L04,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,left_twin,L05,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,left_twin,L06,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,left_twin,L07,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,left_twin,L08,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,left_twin,L09,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,left_twin,L10,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,left_twin,L11,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",logreg,left_twin,L12,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,cls,L00,0.50000,0.50000,0.50000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,cls,L01,0.51775,0.50475,0.53000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,cls,L02,0.51600,0.50175,0.52951,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,cls,L03,0.51125,0.49824,0.52476,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,cls,L04,0.51850,0.50525,0.53201,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,cls,L05,0.50925,0.49500,0.52276,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,cls,L06,0.51425,0.50025,0.52851,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,cls,L07,0.51175,0.49849,0.52425,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,cls,L08,0.51425,0.50099,0.52776,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,cls,L09,0.50950,0.49625,0.52326,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,cls,L10,0.51925,0.50524,0.53251,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,cls,L11,0.52125,0.50800,0.53276,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,cls,L12,0.51675,0.50450,0.53201,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,unchanged,L00,0.50000,0.50000,0.50000,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,unchanged,L01,0.50000,0.49664,0.50336,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,unchanged,L02,0.49851,0.49440,0.50224,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,unchanged,L03,0.50224,0.49851,0.50597,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,unchanged,L04,0.50224,0.49739,0.50746,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,unchanged,L05,0.49851,0.49403,0.50299,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,unchanged,L06,0.50075,0.49627,0.50485,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,unchanged,L07,0.50410,0.50000,0.50858,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,unchanged,L08,0.49888,0.49366,0.50410,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,unchanged,L09,0.49664,0.49179,0.50149,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,unchanged,L10,0.50075,0.49551,0.50672,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,unchanged,L11,0.49664,0.49067,0.50224,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,unchanged,L12,0.49888,0.49328,0.50373,1340
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,far_bg,L00,0.50000,0.50000,0.50000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,far_bg,L01,0.51050,0.49750,0.52200,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,far_bg,L02,0.50600,0.49299,0.51975,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,far_bg,L03,0.50900,0.49450,0.52225,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,far_bg,L04,0.50425,0.49150,0.51800,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,far_bg,L05,0.50775,0.49325,0.52075,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,far_bg,L06,0.50925,0.49574,0.52225,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,far_bg,L07,0.50850,0.49524,0.52100,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,far_bg,L08,0.51000,0.49600,0.52375,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,far_bg,L09,0.50800,0.49474,0.52201,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,far_bg,L10,0.51075,0.49825,0.52400,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,far_bg,L11,0.50925,0.49649,0.52250,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,far_bg,L12,0.52025,0.50675,0.53201,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,left_twin,L00,0.95775,0.95175,0.96425,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,left_twin,L01,0.99975,0.99925,1.00000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,left_twin,L02,0.99975,0.99925,1.00000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,left_twin,L03,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,left_twin,L04,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,left_twin,L05,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,left_twin,L06,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,left_twin,L07,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,left_twin,L08,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,left_twin,L09,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,left_twin,L10,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,left_twin,L11,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand1,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 1",ridge,left_twin,L12,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,cls,L00,0.50000,0.50000,0.50000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,cls,L01,0.52050,0.50750,0.53426,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,cls,L02,0.52225,0.50825,0.53600,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,cls,L03,0.52050,0.50750,0.53400,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,cls,L04,0.53325,0.51924,0.54700,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,cls,L05,0.52750,0.51300,0.54176,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,cls,L06,0.52400,0.51000,0.53900,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,cls,L07,0.52550,0.51124,0.53925,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,cls,L08,0.52450,0.51100,0.53976,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,cls,L09,0.52100,0.50625,0.53526,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,cls,L10,0.52050,0.50675,0.53525,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,cls,L11,0.52150,0.50650,0.53600,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,cls,L12,0.52550,0.51099,0.53975,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,unchanged,L00,0.50000,0.50000,0.50000,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,unchanged,L01,0.50000,0.49552,0.50448,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,unchanged,L02,0.49776,0.49291,0.50299,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,unchanged,L03,0.50000,0.49440,0.50560,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,unchanged,L04,0.49925,0.49403,0.50410,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,unchanged,L05,0.50000,0.49403,0.50597,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,unchanged,L06,0.50000,0.49403,0.50597,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,unchanged,L07,0.49664,0.49029,0.50299,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,unchanged,L08,0.49851,0.49216,0.50448,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,unchanged,L09,0.49403,0.48731,0.50075,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,unchanged,L10,0.49776,0.49104,0.50373,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,unchanged,L11,0.49627,0.48993,0.50224,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,unchanged,L12,0.49925,0.49290,0.50560,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,far_bg,L00,0.50000,0.50000,0.50000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,far_bg,L01,0.52150,0.50824,0.53475,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,far_bg,L02,0.52475,0.51175,0.53725,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,far_bg,L03,0.50750,0.49500,0.52050,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,far_bg,L04,0.51375,0.49999,0.52800,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,far_bg,L05,0.51950,0.50550,0.53301,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,far_bg,L06,0.51650,0.50200,0.52926,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,far_bg,L07,0.51800,0.50400,0.53150,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,far_bg,L08,0.51525,0.50125,0.52900,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,far_bg,L09,0.51825,0.50500,0.53326,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,far_bg,L10,0.51925,0.50574,0.53226,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,far_bg,L11,0.51625,0.50200,0.52950,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,far_bg,L12,0.51950,0.50600,0.53375,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,left_twin,L00,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,left_twin,L01,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,left_twin,L02,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,left_twin,L03,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,left_twin,L04,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,left_twin,L05,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,left_twin,L06,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,left_twin,L07,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,left_twin,L08,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,left_twin,L09,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,left_twin,L10,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,left_twin,L11,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",logreg,left_twin,L12,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,cls,L00,0.50000,0.50000,0.50000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,cls,L01,0.50225,0.48925,0.51525,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,cls,L02,0.51225,0.49924,0.52526,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,cls,L03,0.51525,0.50200,0.52826,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,cls,L04,0.51750,0.50425,0.53000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,cls,L05,0.51625,0.50250,0.52951,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,cls,L06,0.51850,0.50575,0.53250,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,cls,L07,0.51775,0.50324,0.53126,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,cls,L08,0.52175,0.50925,0.53525,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,cls,L09,0.51825,0.50549,0.53175,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,cls,L10,0.51750,0.50400,0.53076,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,cls,L11,0.52600,0.51150,0.54026,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,cls,L12,0.52775,0.51450,0.54151,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,unchanged,L00,0.50000,0.50000,0.50000,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,unchanged,L01,0.50000,0.49664,0.50299,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,unchanged,L02,0.50075,0.49664,0.50410,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,unchanged,L03,0.50373,0.49925,0.50822,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,unchanged,L04,0.49701,0.49254,0.50112,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,unchanged,L05,0.49590,0.49142,0.50075,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,unchanged,L06,0.49888,0.49403,0.50373,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,unchanged,L07,0.50037,0.49515,0.50560,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,unchanged,L08,0.49515,0.48955,0.50038,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,unchanged,L09,0.50000,0.49403,0.50560,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,unchanged,L10,0.49888,0.49439,0.50373,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,unchanged,L11,0.50149,0.49627,0.50672,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,unchanged,L12,0.50336,0.49851,0.50858,1340
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,far_bg,L00,0.50000,0.50000,0.50000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,far_bg,L01,0.51025,0.49825,0.52251,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,far_bg,L02,0.51950,0.50674,0.53251,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,far_bg,L03,0.51525,0.50274,0.52825,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,far_bg,L04,0.51700,0.50375,0.52976,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,far_bg,L05,0.51075,0.49775,0.52450,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,far_bg,L06,0.51600,0.50248,0.52826,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,far_bg,L07,0.51300,0.49949,0.52750,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,far_bg,L08,0.51275,0.50025,0.52526,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,far_bg,L09,0.51625,0.50200,0.52950,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,far_bg,L10,0.51425,0.50125,0.52701,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,far_bg,L11,0.51700,0.50300,0.52976,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,far_bg,L12,0.51825,0.50424,0.53151,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,left_twin,L00,0.95875,0.95300,0.96476,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,left_twin,L01,0.99950,0.99875,1.00000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,left_twin,L02,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,left_twin,L03,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,left_twin,L04,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,left_twin,L05,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,left_twin,L06,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,left_twin,L07,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,left_twin,L08,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,left_twin,L09,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,left_twin,L10,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,left_twin,L11,1.00000,1.00000,1.00000,2000
+acts_v2_clip_rand2,"СЛУЧАЙНЫЕ CLIP (нулевая модель), seed 2",ridge,left_twin,L12,1.00000,1.00000,1.00000,2000
