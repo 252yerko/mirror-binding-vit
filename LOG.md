@@ -26,5 +26,6 @@ A dated summary of completed work, transcribed from the project notebook (dates 
 | 22 Oct | Binding probe for ViT-H (`probe_big.py`) and rule #39; prediction (19:47) | Group means cached on 9 layers instead of ~90 GB of activations per model |
 | 23 Oct | Binding probe on MAE | Gap "upper − left", far background, L32: 10.1 [8.5–11.6] pp (CLS 6.8) — close to CLIP at similar mirror sensitivity; prediction #39a missed |
 | 31 Oct | Repository created | Code, README, results, this log |
+| 5 Nov | I-JEPA binding probe finished (4th network; the run of 22–23 Oct had stopped after 3) and MAE vs. I-JEPA by rule #39 | Gap "upper − left", far background, L32: I-JEPA 11.4 [9.9–13.0] pp vs. MAE 10.1 [8.5–11.6]; Δ = 1.3 [−0.6, 3.2] → "does not discriminate". Predictions #39b and #39c missed (score 1 of 6). Controls pass: random networks ≤ 1.7 pp, twin control 100% |
 
-**Next:** finish the I-JEPA binding probe (3 of 4 networks done); causal interventions on internal representations; behavior on CLIP zero-shot; other models (DINOv2, supervised ViT).
+**Next:** causal interventions on internal representations; behavior on CLIP zero-shot; other models (DINOv2, supervised ViT).

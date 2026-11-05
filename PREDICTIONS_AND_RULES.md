@@ -8,7 +8,7 @@ For each experiment, the decision rule (and, from 7 October on, my own predictio
 
 ## 1. My predictions (scored by a rule fixed before the run)
 
-**Score so far: 1 hit out of 4 resolved; 2 pending.**
+**Score so far: 1 hit out of 6 resolved; none pending.**
 
 | # | Written (Almaty, UTC+5) | Prediction | Scoring rule | Result | Hit? |
 |---|---|---|---|---|---|
@@ -16,8 +16,8 @@ For each experiment, the decision rule (and, from 7 October on, my own predictio
 | 33b | 7 Oct, 10:06 | I-JEPA mirror sensitivity, last layer: **0.50–0.65**, 85% confident | same; patch mean (I-JEPA has no CLS; specified on 15 Oct, before the run, #34) | 0.40 [0.37–0.44] | ❌ |
 | 35 | 15 Oct, 20:01 | Verdict of the MAE vs. I-JEPA comparison: **"B"** | rule #34 (below) | "against A" | ❌ |
 | 39a | 22 Oct, 19:47 | Binding gap "upper − left" for MAE (far background, L32): **8.8–9.0 pp** | point value rounded to 0.1 inside the range | 10.1 [8.5–11.6] | ❌ |
-| 39b | 22 Oct, 19:47 | Same gap for I-JEPA: **"about 17" pp** (scored as 16.0–18.0) | same | run in progress | — |
-| 39c | 22 Oct, 19:47 | Verdict: **"follows"** (more mirror-blind model loses more left–right binding) | rule #39 (below) | run in progress | — |
+| 39b | 22 Oct, 19:47 | Same gap for I-JEPA: **"about 17" pp** (scored as 16.0–18.0) | same | 11.4 [9.9–13.0] | ❌ |
+| 39c | 22 Oct, 19:47 | Verdict: **"follows"** (more mirror-blind model loses more left–right binding) | rule #39 (below) | "does not discriminate" (Δ = 1.3 [−0.6, 3.2]) | ❌ |
 
 Original wording of #33 (Russian, verbatim): «МАЕ: как 0,6-0,75. я считаю так потому что она закрывает 75% кусочков картинки и есть должна дорисовать пиксель закрытых кусочков. я уверен на 70%. I-JEPA: будет примерно 0.5-0.65. тоесть ближе к CLIP чем к случайной сети. потому что он часто смотрит стороны как кошка как. тоесть анализирует стороны и смотрит. уверен я на 85%».
 *Translation:* "MAE: 0.6–0.75, because it masks 75% of the patches and has to redraw the pixels of the hidden ones; 70% sure. I-JEPA: about 0.5–0.65, closer to CLIP than to a random network, because it looks at the sides and analyses them; 85% sure."
@@ -58,6 +58,7 @@ Caveat written at the time: MAE and I-JEPA also differ in their objective (pixel
 → Δ = −0.222 [−0.304, −0.148] → "against A". In this pair, flip augmentation is neither necessary nor sufficient for mirror blindness.
 
 **MAE vs. I-JEPA, binding** (`probe_big.py`, `probe_big_compare.py`; rule #39, written 22 Oct, before the run). Gap = accuracy("upper") − accuracy("left"), far background, L32, logistic regression. Δ = gap(I-JEPA) − gap(MAE), paired bootstrap over scenes (2000, seed 0): "follows" if the whole CI > 0; "contradicts" if the whole CI < 0; otherwise "does not discriminate".
-→ MAE done (gap 10.1 [8.5–11.6]); I-JEPA in progress.
+→ MAE gap 10.1 [8.5–11.6]; I-JEPA gap 11.4 [9.9–13.0]; Δ = 1.3 [−0.6, 3.2] → "does not discriminate" (run finished 5 Nov). The interval includes 0, so the difference between MAE and I-JEPA is not established.
+*For reference, not part of the rule:* Δ by layer (pp) is uneven: L04 −2.3, L08 +0.9, L12 −5.4, L16 −6.7, L20 −4.6, L24 −2.9, L28 +2.3, L32 +1.3 (`results/probe_big_compare_log.txt`).
 
 **Negative result kept:** a non-linear (MLP) probe, set up in advance, was weaker than the linear probe on every layer, so it cannot answer whether information disappears or only stops being linearly readable. Its settings were not tuned on DINO's results.

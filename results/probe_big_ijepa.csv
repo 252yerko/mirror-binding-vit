@@ -1,0 +1,271 @@
+net,weights,probe,query,group,layer,acc,ci_lo,ci_hi,n_scenes
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,unchanged,L00,0.50000,0.50000,0.50000,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,unchanged,L00,0.50000,0.50000,0.50000,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,unchanged,L04,0.53582,0.52201,0.55038,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,unchanged,L04,0.47351,0.45895,0.48993,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,unchanged,L08,0.60634,0.59179,0.61978,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,unchanged,L08,0.49552,0.48060,0.51120,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,unchanged,L12,0.63769,0.62313,0.65262,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,unchanged,L12,0.53358,0.51604,0.55075,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,unchanged,L16,0.64440,0.63022,0.65858,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,unchanged,L16,0.55746,0.53918,0.57538,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,unchanged,L20,0.66493,0.65000,0.67837,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,unchanged,L20,0.58881,0.57164,0.60709,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,unchanged,L24,0.65746,0.64478,0.67127,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,unchanged,L24,0.55821,0.54067,0.57649,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,unchanged,L28,0.63993,0.62537,0.65337,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,unchanged,L28,0.54179,0.52537,0.55971,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,unchanged,L32,0.61269,0.59851,0.62761,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,unchanged,L32,0.54179,0.52575,0.55634,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,far_bg,L00,0.50000,0.50000,0.50000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,far_bg,L00,0.50000,0.50000,0.50000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,far_bg,L04,0.75750,0.74524,0.77026,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,far_bg,L04,0.69050,0.67700,0.70476,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,far_bg,L08,0.81500,0.80275,0.82626,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,far_bg,L08,0.77500,0.76200,0.78651,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,far_bg,L12,0.83150,0.81999,0.84325,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,far_bg,L12,0.79000,0.77774,0.80226,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,far_bg,L16,0.82750,0.81575,0.83951,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,far_bg,L16,0.80225,0.79099,0.81450,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,far_bg,L20,0.83475,0.82250,0.84626,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,far_bg,L20,0.81075,0.79875,0.82351,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,far_bg,L24,0.80525,0.79399,0.81700,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,far_bg,L24,0.76450,0.75200,0.77750,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,far_bg,L28,0.78250,0.77100,0.79400,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,far_bg,L28,0.73225,0.71850,0.74476,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,far_bg,L32,0.75625,0.74474,0.76850,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,far_bg,L32,0.67550,0.66250,0.68850,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,twin,L00,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,twin,L00,0.97550,0.97075,0.98000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,twin,L04,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,twin,L04,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,twin,L08,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,twin,L08,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,twin,L12,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,twin,L12,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,twin,L16,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,twin,L16,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,twin,L20,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,twin,L20,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,twin,L24,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,twin,L24,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,twin,L28,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,twin,L28,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,left,twin,L32,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,left,twin,L32,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,unchanged,L00,0.50000,0.50000,0.50000,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,unchanged,L00,0.50000,0.50000,0.50000,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,unchanged,L04,0.59552,0.58060,0.61008,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,unchanged,L04,0.43321,0.41791,0.44739,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,unchanged,L08,0.67612,0.66156,0.68993,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,unchanged,L08,0.52761,0.51267,0.54254,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,unchanged,L12,0.74851,0.73246,0.76343,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,unchanged,L12,0.68806,0.67127,0.70523,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,unchanged,L16,0.78060,0.76567,0.79479,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,unchanged,L16,0.72537,0.70784,0.74255,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,unchanged,L20,0.80336,0.78880,0.81791,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,unchanged,L20,0.76082,0.74439,0.77725,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,unchanged,L24,0.82649,0.81231,0.84031,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,unchanged,L24,0.78619,0.77051,0.80112,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,unchanged,L28,0.84851,0.83507,0.86082,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,unchanged,L28,0.81642,0.80187,0.83172,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,unchanged,L32,0.81343,0.80036,0.82724,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,unchanged,L32,0.77351,0.75896,0.78769,1340
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,far_bg,L00,0.50000,0.50000,0.50000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,far_bg,L00,0.50000,0.50000,0.50000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,far_bg,L04,0.81000,0.79799,0.82175,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,far_bg,L04,0.78425,0.77124,0.79601,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,far_bg,L08,0.85375,0.84299,0.86500,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,far_bg,L08,0.83525,0.82324,0.84626,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,far_bg,L12,0.86750,0.85750,0.87775,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,far_bg,L12,0.86675,0.85450,0.87725,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,far_bg,L16,0.87575,0.86550,0.88651,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,far_bg,L16,0.88350,0.87300,0.89326,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,far_bg,L20,0.89350,0.88400,0.90325,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,far_bg,L20,0.89950,0.88950,0.90926,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,far_bg,L24,0.89600,0.88775,0.90525,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,far_bg,L24,0.90025,0.89025,0.91001,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,far_bg,L28,0.89650,0.88775,0.90600,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,far_bg,L28,0.91425,0.90525,0.92250,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,far_bg,L32,0.87050,0.86099,0.88100,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,far_bg,L32,0.88050,0.87000,0.89000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,twin,L00,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,twin,L00,0.97450,0.96950,0.97925,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,twin,L04,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,twin,L04,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,twin,L08,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,twin,L08,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,twin,L12,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,twin,L12,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,twin,L16,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,twin,L16,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,twin,L20,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,twin,L20,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,twin,L24,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,twin,L24,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,twin,L28,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,twin,L28,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",logreg,upper,twin,L32,1.00000,1.00000,1.00000,2000
+I-JEPA,"обученная I-JEPA, ЦЕЛЕВОЙ энкодер (официальный чекпойнт IN1K-vit.h.14-300e)",ridge,upper,twin,L32,1.00000,1.00000,1.00000,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,unchanged,L00,0.50000,0.50000,0.50000,1340
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,unchanged,L04,0.49963,0.49029,0.50821,1340
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,unchanged,L08,0.49851,0.48880,0.50747,1340
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,unchanged,L12,0.49739,0.48731,0.50747,1340
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,unchanged,L16,0.49142,0.48022,0.50149,1340
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,unchanged,L20,0.49478,0.48395,0.50560,1340
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,unchanged,L24,0.50187,0.48993,0.51381,1340
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,unchanged,L28,0.50075,0.48881,0.51269,1340
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,unchanged,L32,0.49328,0.48134,0.50485,1340
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,far_bg,L00,0.50000,0.50000,0.50000,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,far_bg,L04,0.51100,0.49574,0.52550,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,far_bg,L08,0.50300,0.48975,0.51725,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,far_bg,L12,0.50825,0.49374,0.52225,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,far_bg,L16,0.50675,0.49199,0.52000,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,far_bg,L20,0.50550,0.49125,0.51951,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,far_bg,L24,0.50575,0.49225,0.51950,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,far_bg,L28,0.50475,0.49074,0.51900,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,far_bg,L32,0.51000,0.49675,0.52300,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,twin,L00,1.00000,1.00000,1.00000,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,twin,L04,1.00000,1.00000,1.00000,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,twin,L08,1.00000,1.00000,1.00000,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,twin,L12,1.00000,1.00000,1.00000,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,twin,L16,1.00000,1.00000,1.00000,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,twin,L20,1.00000,1.00000,1.00000,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,twin,L24,1.00000,1.00000,1.00000,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,twin,L28,1.00000,1.00000,1.00000,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,left,twin,L32,1.00000,1.00000,1.00000,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,unchanged,L00,0.50000,0.50000,0.50000,1340
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,unchanged,L04,0.49739,0.48843,0.50634,1340
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,unchanged,L08,0.50075,0.49030,0.51046,1340
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,unchanged,L12,0.50112,0.49030,0.51157,1340
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,unchanged,L16,0.49851,0.48769,0.50858,1340
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,unchanged,L20,0.50224,0.49142,0.51343,1340
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,unchanged,L24,0.49925,0.48880,0.50970,1340
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,unchanged,L28,0.49328,0.48246,0.50485,1340
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,unchanged,L32,0.49888,0.48806,0.51007,1340
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,far_bg,L00,0.50000,0.50000,0.50000,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,far_bg,L04,0.51525,0.50149,0.52975,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,far_bg,L08,0.51625,0.50200,0.53075,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,far_bg,L12,0.51850,0.50475,0.53226,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,far_bg,L16,0.52000,0.50675,0.53426,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,far_bg,L20,0.51700,0.50324,0.53050,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,far_bg,L24,0.51625,0.50150,0.52925,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,far_bg,L28,0.51750,0.50299,0.53151,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,far_bg,L32,0.51250,0.50024,0.52700,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,twin,L00,1.00000,1.00000,1.00000,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,twin,L04,1.00000,1.00000,1.00000,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,twin,L08,1.00000,1.00000,1.00000,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,twin,L12,1.00000,1.00000,1.00000,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,twin,L16,1.00000,1.00000,1.00000,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,twin,L20,1.00000,1.00000,1.00000,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,twin,L24,1.00000,1.00000,1.00000,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,twin,L28,1.00000,1.00000,1.00000,2000
+ijepa_rand0,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 0",logreg,upper,twin,L32,1.00000,1.00000,1.00000,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,unchanged,L00,0.50000,0.50000,0.50000,1340
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,unchanged,L04,0.50299,0.49327,0.51306,1340
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,unchanged,L08,0.48955,0.48059,0.49925,1340
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,unchanged,L12,0.49963,0.48806,0.51007,1340
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,unchanged,L16,0.49328,0.48172,0.50560,1340
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,unchanged,L20,0.49851,0.48806,0.50970,1340
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,unchanged,L24,0.49590,0.48507,0.50597,1340
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,unchanged,L28,0.49627,0.48470,0.50709,1340
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,unchanged,L32,0.49701,0.48582,0.50672,1340
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,far_bg,L00,0.50000,0.50000,0.50000,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,far_bg,L04,0.49900,0.48474,0.51250,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,far_bg,L08,0.50400,0.49024,0.51925,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,far_bg,L12,0.50350,0.48775,0.51875,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,far_bg,L16,0.50025,0.48624,0.51450,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,far_bg,L20,0.50200,0.48750,0.51625,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,far_bg,L24,0.50100,0.48650,0.51576,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,far_bg,L28,0.50050,0.48650,0.51475,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,far_bg,L32,0.49800,0.48475,0.51250,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,twin,L00,1.00000,1.00000,1.00000,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,twin,L04,1.00000,1.00000,1.00000,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,twin,L08,1.00000,1.00000,1.00000,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,twin,L12,1.00000,1.00000,1.00000,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,twin,L16,1.00000,1.00000,1.00000,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,twin,L20,1.00000,1.00000,1.00000,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,twin,L24,1.00000,1.00000,1.00000,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,twin,L28,1.00000,1.00000,1.00000,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,left,twin,L32,1.00000,1.00000,1.00000,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,unchanged,L00,0.50000,0.50000,0.50000,1340
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,unchanged,L04,0.49813,0.48881,0.50747,1340
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,unchanged,L08,0.49552,0.48582,0.50597,1340
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,unchanged,L12,0.49888,0.48881,0.50970,1340
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,unchanged,L16,0.50075,0.48993,0.51157,1340
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,unchanged,L20,0.50149,0.48918,0.51270,1340
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,unchanged,L24,0.50224,0.49104,0.51381,1340
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,unchanged,L28,0.50485,0.49328,0.51605,1340
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,unchanged,L32,0.50187,0.49104,0.51269,1340
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,far_bg,L00,0.50000,0.50000,0.50000,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,far_bg,L04,0.51525,0.50075,0.52900,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,far_bg,L08,0.50950,0.49574,0.52400,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,far_bg,L12,0.51225,0.49874,0.52726,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,far_bg,L16,0.51650,0.50249,0.53076,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,far_bg,L20,0.51325,0.49899,0.52750,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,far_bg,L24,0.51525,0.50125,0.53001,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,far_bg,L28,0.51500,0.50049,0.52926,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,far_bg,L32,0.51500,0.50125,0.53000,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,twin,L00,1.00000,1.00000,1.00000,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,twin,L04,1.00000,1.00000,1.00000,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,twin,L08,1.00000,1.00000,1.00000,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,twin,L12,1.00000,1.00000,1.00000,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,twin,L16,1.00000,1.00000,1.00000,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,twin,L20,1.00000,1.00000,1.00000,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,twin,L24,1.00000,1.00000,1.00000,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,twin,L28,1.00000,1.00000,1.00000,2000
+ijepa_rand1,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 1",logreg,upper,twin,L32,1.00000,1.00000,1.00000,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,unchanged,L00,0.50000,0.50000,0.50000,1340
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,unchanged,L04,0.49552,0.48656,0.50448,1340
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,unchanged,L08,0.49478,0.48582,0.50410,1340
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,unchanged,L12,0.49739,0.48731,0.50710,1340
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,unchanged,L16,0.49664,0.48619,0.50672,1340
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,unchanged,L20,0.50149,0.49030,0.51306,1340
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,unchanged,L24,0.50037,0.48917,0.51158,1340
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,unchanged,L28,0.50336,0.49215,0.51493,1340
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,unchanged,L32,0.50037,0.48881,0.51195,1340
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,far_bg,L00,0.50000,0.50000,0.50000,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,far_bg,L04,0.50875,0.49550,0.52225,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,far_bg,L08,0.51300,0.49750,0.52626,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,far_bg,L12,0.51450,0.50049,0.52875,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,far_bg,L16,0.51050,0.49575,0.52400,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,far_bg,L20,0.50850,0.49400,0.52300,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,far_bg,L24,0.50500,0.48974,0.51951,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,far_bg,L28,0.50650,0.49275,0.52151,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,far_bg,L32,0.50975,0.49549,0.52425,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,twin,L00,1.00000,1.00000,1.00000,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,twin,L04,1.00000,1.00000,1.00000,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,twin,L08,1.00000,1.00000,1.00000,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,twin,L12,1.00000,1.00000,1.00000,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,twin,L16,1.00000,1.00000,1.00000,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,twin,L20,1.00000,1.00000,1.00000,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,twin,L24,1.00000,1.00000,1.00000,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,twin,L28,1.00000,1.00000,1.00000,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,left,twin,L32,1.00000,1.00000,1.00000,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,unchanged,L00,0.50000,0.50000,0.50000,1340
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,unchanged,L04,0.50075,0.49179,0.50970,1340
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,unchanged,L08,0.51082,0.50037,0.52127,1340
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,unchanged,L12,0.50037,0.49066,0.51045,1340
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,unchanged,L16,0.49851,0.48657,0.50970,1340
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,unchanged,L20,0.50485,0.49440,0.51642,1340
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,unchanged,L24,0.50336,0.49215,0.51455,1340
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,unchanged,L28,0.50373,0.49179,0.51530,1340
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,unchanged,L32,0.50261,0.49141,0.51381,1340
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,far_bg,L00,0.50000,0.50000,0.50000,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,far_bg,L04,0.51825,0.50449,0.53275,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,far_bg,L08,0.51875,0.50475,0.53350,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,far_bg,L12,0.52300,0.50950,0.53675,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,far_bg,L16,0.51500,0.50149,0.52801,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,far_bg,L20,0.51750,0.50299,0.53275,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,far_bg,L24,0.51100,0.49724,0.52476,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,far_bg,L28,0.50600,0.49374,0.52001,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,far_bg,L32,0.50800,0.49299,0.52151,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,twin,L00,1.00000,1.00000,1.00000,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,twin,L04,1.00000,1.00000,1.00000,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,twin,L08,1.00000,1.00000,1.00000,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,twin,L12,1.00000,1.00000,1.00000,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,twin,L16,1.00000,1.00000,1.00000,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,twin,L20,1.00000,1.00000,1.00000,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,twin,L24,1.00000,1.00000,1.00000,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,twin,L28,1.00000,1.00000,1.00000,2000
+ijepa_rand2,"СЛУЧАЙНЫЕ vit_huge_patch14_gap_224 (нулевая модель), seed 2",logreg,upper,twin,L32,1.00000,1.00000,1.00000,2000

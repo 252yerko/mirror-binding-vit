@@ -53,3 +53,6 @@
 2026-10-18 15:14 UTC  be00c2b3c4f2  flip_compare_log.txt
 2026-10-23 05:24 UTC  358124ef06bf  probe_big_mae_log.txt
 2026-10-23 05:24 UTC  a9fdc648c1dd  probe_big_mae.csv
+2026-11-05 09:17 UTC  f6579e9354ad  probe_big_ijepa.csv
+2026-11-05 09:17 UTC  8c7a5f0de2e0  probe_big_ijepa_log.txt
+2026-11-05 09:17 UTC  a3b71fce036f  probe_big_compare_log.txt
