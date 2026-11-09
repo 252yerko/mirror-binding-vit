@@ -56,3 +56,6 @@
 2026-11-05 09:17 UTC  f6579e9354ad  probe_big_ijepa.csv
 2026-11-05 09:17 UTC  8c7a5f0de2e0  probe_big_ijepa_log.txt
 2026-11-05 09:17 UTC  a3b71fce036f  probe_big_compare_log.txt
+2026-11-05 20:29 UTC  ae9ff31166bc  ablate_blocks.csv
+2026-11-05 20:29 UTC  73caae2aa6a0  ablate_blocks_log.txt
+2026-11-05 20:29 UTC  363a98dba752  ablate_blocks.png
