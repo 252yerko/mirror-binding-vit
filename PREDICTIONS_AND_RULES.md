@@ -2,13 +2,13 @@
 
 For each experiment, the decision rule (and, from 7 October on, my own prediction) was written down in the project notebook **before the run**. This file is an English transcription of those entries. Numbers such as **#33** are entry numbers in the notebook's registry; script headers cite them as «реестр N».
 
-**Limits.** These records are dated by my notebook, not by an external timestamp. The repository was created on 31 October 2026, so commit dates are later than the entries. Checksums and file times of the original result files are in [`results/MANIFEST.txt`](results/MANIFEST.txt). Since 6 November 2026, the design, rule and prediction are also registered on OSF before the run, which gives an external timestamp (#43: [osf.io/us5zv](https://osf.io/us5zv), under embargo until the preprint, at the latest 31 March 2027).
+**Limits.** These records are dated by my notebook, not by an external timestamp. The repository was created on 31 October 2026, so commit dates are later than the entries. Checksums and file times of the original result files are in [`results/MANIFEST.txt`](results/MANIFEST.txt). Since 6 November 2026, the design, rule and prediction are also registered on OSF before the run, which gives an external timestamp (#43: [osf.io/us5zv](https://osf.io/us5zv); #53: [osf.io/6uves](https://osf.io/6uves); under embargo until the preprint, at the latest 31 March 2027).
 
 ---
 
 ## 1. My predictions (scored by a rule fixed before the run)
 
-**Score so far: 2 hits out of 9 resolved; none pending.**
+**Score so far: 3 hits out of 12 resolved; none pending.**
 
 | # | Written (Almaty, UTC+5) | Prediction | Scoring rule | Result | Hit? |
 |---|---|---|---|---|---|
@@ -21,6 +21,9 @@ For each experiment, the decision rule (and, from 7 October on, my own predictio
 | 43a | 5 Nov, 23:55 | Verdict of the mean-ablation test: **"B"** (the MLP erases, attention is not involved), 90% confident | rule #43 (below) | "C" (both erase) | ❌ |
 | 43b | 5 Nov, 23:55 | Δ"left" with attention ablated in blocks 4–12 (far background, L12): **below −5.0 pp** | point value rounded to 0.1, ≤ −5.1 | +4.5 [+2.7, +6.3] | ❌ |
 | 43c | 5 Nov, 23:55 | Δ"left" with the MLP ablated in blocks 4–12: **above +8.0 pp** | point value rounded to 0.1, ≥ +8.1 | +8.5 [+6.9, +10.1] | ✅ |
+| 53a | 9 Nov, 09:45 | CLIP, blocks 7–12: verdict **"C"** (both erase), 45% confident | rule #53 = rule #43 | "A" (attention only) | ❌ |
+| 53b | 9 Nov, 09:45 | CLIP: Δ"left" with attention ablated: **about +3** (+2.1 to +5.0) | point value rounded to 0.1 | +3.2 [+1.5, +4.9] | ✅ |
+| 53c | 9 Nov, 09:45 | CLIP: Δ"left" with the MLP ablated: **about +6** (+5.1 to +8.0) | point value rounded to 0.1 | +10.0 [+8.3, +11.7] | ❌ |
 
 Original wording of #33 (Russian, verbatim): «МАЕ: как 0,6-0,75. я считаю так потому что она закрывает 75% кусочков картинки и есть должна дорисовать пиксель закрытых кусочков. я уверен на 70%. I-JEPA: будет примерно 0.5-0.65. тоесть ближе к CLIP чем к случайной сети. потому что он часто смотрит стороны как кошка как. тоесть анализирует стороны и смотрит. уверен я на 85%».
 *Translation:* "MAE: 0.6–0.75, because it masks 75% of the patches and has to redraw the pixels of the hidden ones; 70% sure. I-JEPA: about 0.5–0.65, closer to CLIP than to a random network, because it looks at the sides and analyses them; 85% sure."
@@ -29,6 +32,9 @@ Original wording of #39 (verbatim): «шаг 1)б , шаг 2)примерный 
 
 Original wording of #43 (verbatim, 23:53 and 23:55): «мне кажется если заткнуть разговоры то просядет все, так как они не будут понимать друг друга еще больше и просядет ниже 60%, а если вырубить MLP то мне кажется увеличится наоборот процент левого. и вопрос про MLP думаю что да так как каждый отт себя что то добавляет и потом суть теряется.» → «3)Е , 4)90%. я уже все проанализировал и примерно уверен на 100%. такак реально это же очевидно что MLP виновник так как это портит все и теряется качество понимаение».
 *Translation:* "I think if you silence the 'conversations' [attention], everything will drop, because they will understand each other even less, and it will drop below 60%; and if you switch off the MLP, I think the percentage for 'left' will instead go up. And on the MLP question, I think yes, because each one adds something of its own and then the meaning gets lost." → "3) E [Δ'left' with the MLP ablated: above +8.0], 4) 90%. I have already analysed everything and am about 100% sure, because it is really obvious that the MLP is the culprit, since it spoils everything and the quality of understanding is lost." The prediction was given after the design had been explained to me; an earlier answer the same evening was withdrawn as a guess and is not scored. The same entry is in the OSF registration.
+
+Original wording of #53 (verbatim, 09:45): «* Вывод. Скорее всего В, но слабее, чем у DINO. Уверен процентов на 45, потому что у CLIP «верхний» после L07 тоже падает. Это легко даёт «не различает» вместо «стирает». * Внимание блоков 7–12. Около +3 (вариант Г). * MLP блоков 7–12. Около +6 (вариант Д). * Почему. У DINO MLP возвращал «левый» сильнее, чем внимание. У CLIP запас всего около 9 п.п., и он делится между двумя частями. * Что убедило бы меня в ошибке. Если внимание даст больше MLP, или обе Δ окажутся около нуля (тогда Г: ни одна часть не причастна).  я уверен примерно на 75%». Clarification (09:47, before the code): the "75%" at the end was a typo for 45%.
+*Translation:* "Verdict: most likely C, but weaker than in DINO; about 45% sure, because in CLIP 'upper' also falls after layer 7, which easily gives 'does not discriminate' instead of 'erases'. Attention, blocks 7–12: about +3 (option D). MLP, blocks 7–12: about +6 (option E). Why: in DINO the MLP restored 'left' more strongly than attention; CLIP has only about 9 pp to recover, split between the two parts. What would show me wrong: attention giving more than the MLP, or both Δ near zero." The layer-wise CLIP numbers were shown to me before the prediction (the layer-12 gap was shown as 9.1 instead of 9.0 pp, a rounding slip). The same entry is in the OSF registration.
 
 An earlier table of informal expectations (5–6 October) is **not** counted: the time it was written could not be verified.
 
@@ -75,5 +81,9 @@ Caveat written at the time: MAE and I-JEPA also differ in their objective (pixel
 Verdict by which parts "erase": A attention only / B MLP only / C both / D neither. The 18 single-sublayer conditions get the same labels with 99.72% CIs and are exploratory; CLS is secondary.
 → Attention: Δleft +4.5 [+2.7, +6.3], Δupper −8.2 [−9.8, −6.8], Δleft − Δupper +12.8 [+10.5, +15.0] → "erases". MLP: Δleft +8.5 [+6.9, +10.1], Δupper +3.1 [+1.8, +4.4], Δleft − Δupper +5.3 [+3.3, +7.4] → "erases". No "destroyed" flag (lowest "upper": 75.2%). **Verdict "C": both parts erase.** Single sublayers: 14 "not involved", 4 "does not discriminate" (attn_07, mlp_04, mlp_05, mlp_06), none "erases". Built-in checks pass: the unmodified run reproduces earlier results exactly (64.9% / 83.5%; mirror 0.336 / 0.284); random networks 49.7–52.4%; twin control 100%. No deviations from the registration.
 *For reference, not part of the rule:* mirror sensitivity at L12 (CLS / patch mean): unmodified 0.34 / 0.28; attention ablated 0.82 / 0.72; MLP ablated 0.40 / 0.35.
+
+**Mean-ablation on CLIP, blocks 7–12** (`ablate_clip.py`; rule #53 = rule #43; written 9 Nov before the code; registered on OSF 9 Nov 10:49, [osf.io/6uves](https://osf.io/6uves)). Blocks chosen by the same principle as for DINO (from the block after the peak of "left" on the far background — layer 6 in CLIP — to the last block). Same conditions, readout, intervals (97.5% for the 2 primary conditions, 99.58% for 12 single sublayers) and labels; reference conditions on blocks 4–12 are not part of the rule.
+→ Attention: Δleft +3.2 [+1.5, +4.9], Δupper −5.0 [−6.7, −3.3], Δleft − Δupper +8.2 [+5.8, +10.5] → "erases". MLP: Δleft +10.0 [+8.3, +11.7], Δupper +10.5 [+9.0, +12.1], Δleft − Δupper −0.5 [−2.8, +1.7] → "not involved". No "destroyed" flag (lowest "upper": 67.2%). **Verdict "A": attention only.** Single sublayers: 7 "not involved", 5 "does not discriminate", none "erases". Built-in checks pass: the unmodified run reproduces earlier CLIP results exactly (63.15% / 72.15%; CLS 63.80% / 73.125%; mirror 0.654 / 0.613); random networks 49.5–53.1%; twin control 100%. No deviations from the registration.
+*For reference, not part of the rule:* mirror sensitivity at L12 (CLS / patch mean): unmodified 0.65 / 0.61; attention ablated 1.20 / 0.79; MLP ablated 0.79 / 0.62. Blocks 4–12 (as in DINO): attention Δleft −3.9 (blocks 4–6 build "left"), MLP Δleft +13.1, Δupper +7.2.
 
 **Negative result kept:** a non-linear (MLP) probe, set up in advance, was weaker than the linear probe on every layer, so it cannot answer whether information disappears or only stops being linearly readable. Its settings were not tuned on DINO's results.
