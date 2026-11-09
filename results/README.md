@@ -16,3 +16,4 @@ Original outputs of the scripts, copied byte-for-byte from the machine where the
 | MAE vs. I-JEPA, binding probe | `probe_big_compare_log.txt` |
 | Mean-ablation of attention / MLP, DINO blocks 4–12 (OSF us5zv) | `ablate_blocks.csv`, `ablate_blocks_log.txt`, `ablate_blocks.png` |
 | Mean-ablation of attention / MLP, CLIP blocks 7–12 (OSF 6uves) | `ablate_clip.csv`, `ablate_clip_log.txt`, `ablate_clip.png` |
+| Twin-token patching across DINO layers (OSF 23wjy) | `patch_twins.csv`, `patch_twins_log.txt`, `patch_twins.png` |
