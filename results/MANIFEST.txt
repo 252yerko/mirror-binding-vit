@@ -65,3 +65,10 @@
 2026-11-09 10:35 UTC  54952ccc9287  patch_twins.csv
 2026-11-09 10:35 UTC  db232c613fd4  patch_twins_log.txt
 2026-11-09 10:35 UTC  5921e6b2fa43  patch_twins.png
+2026-11-10 13:31 UTC  e675757197a1  das_binding_test200_log.txt
+2026-11-10 15:11 UTC  488d60aa9a53  das_bench_log.txt
+2026-11-10 16:53 UTC  5665d1e2fe03  das_pilot_log.txt
+2026-11-10 18:10 UTC  355505329701  das_pilot2_log.txt
+2026-11-11 07:16 UTC  352496cfe00f  das_binding.csv
+2026-11-11 07:16 UTC  4fe8482cf9cb  das_binding_log.txt
+2026-11-11 07:16 UTC  8ff8096b3589  das_binding.png

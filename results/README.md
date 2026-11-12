@@ -17,3 +17,5 @@ Original outputs of the scripts, copied byte-for-byte from the machine where the
 | Mean-ablation of attention / MLP, DINO blocks 4–12 (OSF us5zv) | `ablate_blocks.csv`, `ablate_blocks_log.txt`, `ablate_blocks.png` |
 | Mean-ablation of attention / MLP, CLIP blocks 7–12 (OSF 6uves) | `ablate_clip.csv`, `ablate_clip_log.txt`, `ablate_clip.png` |
 | Twin-token patching across DINO layers (OSF 23wjy) | `patch_twins.csv`, `patch_twins_log.txt`, `patch_twins.png` |
+| Distributed alignment search (DAS), DINO (OSF j2g74) | `das_binding.csv`, `das_binding_log.txt`, `das_binding.png` |
+| DAS: runs before the registration, disclosed in it (smoke test on 200 scenes, speed benchmark, pilots 1 and 2); not results | `das_binding_test200_log.txt`, `das_bench_log.txt`, `das_pilot_log.txt`, `das_pilot2_log.txt` |
