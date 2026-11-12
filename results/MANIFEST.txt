@@ -72,3 +72,5 @@
 2026-11-11 07:16 UTC  352496cfe00f  das_binding.csv
 2026-11-11 07:16 UTC  4fe8482cf9cb  das_binding_log.txt
 2026-11-11 07:16 UTC  8ff8096b3589  das_binding.png
+2026-11-12 09:10 UTC  abbb14461d5d  behavior_clip.csv
+2026-11-12 09:10 UTC  8e91bf9e028b  behavior_clip_log.txt
