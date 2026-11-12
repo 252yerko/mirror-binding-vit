@@ -19,4 +19,5 @@ Original outputs of the scripts, copied byte-for-byte from the machine where the
 | Twin-token patching across DINO layers (OSF 23wjy) | `patch_twins.csv`, `patch_twins_log.txt`, `patch_twins.png` |
 | Distributed alignment search (DAS), DINO (OSF j2g74) | `das_binding.csv`, `das_binding_log.txt`, `das_binding.png` |
 | Behavioral test of CLIP itself: caption choice, left–right vs. top–bottom (OSF 5hn9u) | `behavior_clip.csv`, `behavior_clip_log.txt` |
+| Probe robustness: regularization grid and random-side control (OSF 3f9tz) | `probe_robust.csv`, `probe_robust_log.txt` |
 | DAS: runs before the registration, disclosed in it (smoke test on 200 scenes, speed benchmark, pilots 1 and 2); not results | `das_binding_test200_log.txt`, `das_bench_log.txt`, `das_pilot_log.txt`, `das_pilot2_log.txt` |

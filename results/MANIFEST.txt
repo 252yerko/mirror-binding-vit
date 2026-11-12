@@ -74,3 +74,5 @@
 2026-11-11 07:16 UTC  8ff8096b3589  das_binding.png
 2026-11-12 09:10 UTC  abbb14461d5d  behavior_clip.csv
 2026-11-12 09:10 UTC  8e91bf9e028b  behavior_clip_log.txt
+2026-11-12 10:21 UTC  29c87c50400f  probe_robust.csv
+2026-11-12 10:21 UTC  e0f3a21b82dc  probe_robust_log.txt
