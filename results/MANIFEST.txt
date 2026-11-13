@@ -81,3 +81,12 @@
 2026-11-13 05:40 UTC  37982811330e  more_nets_deit3.csv
 2026-11-13 05:40 UTC  d6fde476bd18  more_nets_deit3_log.txt
 2026-11-13 05:44 UTC  c17ab28959af  more_nets_compare_log.txt
+2026-11-13 07:44 UTC  f5eed6467879  mirror_decomp_dino.csv
+2026-11-13 07:44 UTC  c6035a501192  mirror_decomp_dino_log.txt
+2026-11-13 07:57 UTC  3bd062d5fad0  mirror_decomp_clip.csv
+2026-11-13 07:57 UTC  e895df3a1fd6  mirror_decomp_clip_log.txt
+2026-11-13 08:37 UTC  6527cbc3624c  mirror_decomp_dinov2.csv
+2026-11-13 08:37 UTC  dc6c8f6b936d  mirror_decomp_dinov2_log.txt
+2026-11-13 08:45 UTC  2dcbd9cf401c  mirror_decomp_deit3.csv
+2026-11-13 08:45 UTC  0dcfda2a5741  mirror_decomp_deit3_log.txt
+2026-11-13 08:45 UTC  702ca6d21a4d  mirror_decomp_summary_log.txt
