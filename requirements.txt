@@ -4,6 +4,7 @@ timm==1.0.30
 open_clip_torch
 numpy
 scikit-learn
+scipy
 pandas
 matplotlib
 pillow

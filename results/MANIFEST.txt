@@ -76,3 +76,8 @@
 2026-11-12 09:10 UTC  8e91bf9e028b  behavior_clip_log.txt
 2026-11-12 10:21 UTC  29c87c50400f  probe_robust.csv
 2026-11-12 10:21 UTC  e0f3a21b82dc  probe_robust_log.txt
+2026-11-13 05:25 UTC  7bdf4235108e  more_nets_dinov2.csv
+2026-11-13 05:25 UTC  a641bf4a380c  more_nets_dinov2_log.txt
+2026-11-13 05:40 UTC  37982811330e  more_nets_deit3.csv
+2026-11-13 05:40 UTC  d6fde476bd18  more_nets_deit3_log.txt
+2026-11-13 05:44 UTC  c17ab28959af  more_nets_compare_log.txt

@@ -20,4 +20,5 @@ Original outputs of the scripts, copied byte-for-byte from the machine where the
 | Distributed alignment search (DAS), DINO (OSF j2g74) | `das_binding.csv`, `das_binding_log.txt`, `das_binding.png` |
 | Behavioral test of CLIP itself: caption choice, left–right vs. top–bottom (OSF 5hn9u) | `behavior_clip.csv`, `behavior_clip_log.txt` |
 | Probe robustness: regularization grid and random-side control (OSF 3f9tz) | `probe_robust.csv`, `probe_robust_log.txt` |
+| Two more networks: DINOv2 ViT-B/14 with registers and DeiT III ViT-B/16, mirror test and binding probe; rank test across six networks (OSF 8s4gm) | `more_nets_dinov2.csv`, `more_nets_dinov2_log.txt`, `more_nets_deit3.csv`, `more_nets_deit3_log.txt`, `more_nets_compare_log.txt` |
 | DAS: runs before the registration, disclosed in it (smoke test on 200 scenes, speed benchmark, pilots 1 and 2); not results | `das_binding_test200_log.txt`, `das_bench_log.txt`, `das_pilot_log.txt`, `das_pilot2_log.txt` |

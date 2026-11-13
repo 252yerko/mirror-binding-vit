@@ -18,17 +18,17 @@ This project asks whether Vision Transformers (ViTs) store attribute binding, in
 - **Probes.** At every layer, a linear probe (logistic regression; ridge as a robustness check; cross-validated by scene) predicts the color of the *left* or *upper* twin. It reads from the CLS token, from untouched objects, or from background patches at least 3 patches away from both twins. A bag-of-features representation scores **exactly 50%** by construction.
 - **Controls.** Layer 0 (must be exactly 50%), three randomly initialized networks per architecture, and a positive control (the twin's own patches, ~100%). All intervals are 95% bootstrap CIs over scenes.
 - **Mirror test.** For scenes made only of mirror-symmetric shapes, we measure how much a left–right flip changes the representation compared with an up–down flip (`flip_test.py`). A value of 1 means both flips matter equally; lower means the model is blind to left vs. right.
-- **Rules and predictions written down before each run.** For each experiment, the decision rule (and my own prediction) was recorded in the project notebook before the run; they are not externally timestamped. English versions and the scored predictions (9 hits out of 25 resolved so far) are in [`PREDICTIONS_AND_RULES.md`](PREDICTIONS_AND_RULES.md). Since 6 November 2026, the design, rule and prediction are also registered on OSF before the run ([osf.io/us5zv](https://osf.io/us5zv), [osf.io/6uves](https://osf.io/6uves), [osf.io/23wjy](https://osf.io/23wjy), [osf.io/j2g74](https://osf.io/j2g74), [osf.io/5hn9u](https://osf.io/5hn9u) and [osf.io/3f9tz](https://osf.io/3f9tz), under embargo until the preprint, at the latest 31 March 2027).
+- **Rules and predictions written down before each run.** For each experiment, the decision rule (and my own prediction) was recorded in the project notebook before the run; they are not externally timestamped. English versions and the scored predictions (11 hits out of 30 resolved so far) are in [`PREDICTIONS_AND_RULES.md`](PREDICTIONS_AND_RULES.md). Since 6 November 2026, the design, rule and prediction are also registered on OSF before the run ([osf.io/us5zv](https://osf.io/us5zv), [osf.io/6uves](https://osf.io/6uves), [osf.io/23wjy](https://osf.io/23wjy), [osf.io/j2g74](https://osf.io/j2g74), [osf.io/5hn9u](https://osf.io/5hn9u), [osf.io/3f9tz](https://osf.io/3f9tz) and [osf.io/8s4gm](https://osf.io/8s4gm), under embargo until the preprint, at the latest 31 March 2027).
 
 Models: DINO ViT-B/16, OpenAI CLIP ViT-B/16, MAE ViT-H/14, I-JEPA ViT-H/14 (target encoder).
 
 ## Results so far
 
-| | DINO | CLIP | MAE | I-JEPA |
-|---|---|---|---|---|
-| Mirror sensitivity, last layer (CLS / patch mean; random ≈ 1) | 0.34 / 0.28 | 0.65 / 0.61 | 0.67 / 0.63 | — / 0.40 |
-| Binding gap "upper − left", **far background**, last layer (pp) | 18.6 | 9.0 | 10.1 | 11.4 |
-| Binding gap "upper − left", **CLS**, last layer (pp) | 20.4 | 9.3 | 6.8 | no CLS |
+| | DINO | CLIP | MAE | I-JEPA | DINOv2 | DeiT III |
+|---|---|---|---|---|---|---|
+| Mirror sensitivity, last layer (CLS / patch mean; random ≈ 1) | 0.34 / 0.28 | 0.65 / 0.61 | 0.67 / 0.63 | — / 0.40 | 0.56 / 0.51 | 0.41 / 0.38 |
+| Binding gap "upper − left", **far background**, last layer (pp) | 18.6 | 9.0 | 10.1 | 11.4 | 10.2 | 17.2 |
+| Binding gap "upper − left", **CLS**, last layer (pp) | 20.4 | 9.3 | 6.8 | no CLS | 11.5 | 19.7 |
 
 Last layer: L12 for DINO and CLIP (ViT-B/16), L32 for MAE and I-JEPA (ViT-H/14). Every number names the token group it comes from; the source CSVs and logs are in [`results/`](results/).
 
@@ -59,7 +59,9 @@ Last layer: L12 for DINO and CLIP (ViT-B/16), L32 for MAE and I-JEPA (ViT-H/14).
 
 11. **The binding gaps do not depend on the probe's regularization, and the probe does not guess which twin is asked about.** Registered on OSF before the run ([osf.io/3f9tz](https://osf.io/3f9tz)). At layer 12 the probe was refitted with C = 0.001, 0.01, 0.1 (the value fixed in advance for all earlier probes), 1 and 10. On the far background the gap "upper − left" is 17.5–20.4 pp for DINO and 9.0–9.3 pp for CLIP for every C from 0.01 to 10. With the strongest regularization (C = 0.001) both accuracies fall towards 50% and the gap shrinks (DINO 13.9 [12.0, 15.7], CLIP 3.4 [1.7, 5.0]) but stays above 0 → "robust" by the pre-registered rule (all 10 lower bounds above 0). In a control task, a coin decides in each scene which twin is queried (the same twin in S and Sp), so a probe that cannot tell which twin is meant must score about 50%: it scores 49.1–50.3% (DINO and CLIP, far background and CLS; 98.75% CIs within 47.7–51.9) → "clean". At C = 0.1 the probe reproduces the earlier numbers exactly. This rules out that the main numbers come from the choice of C, and it rules out one specific leak; other layers, models and data splits are not covered.
 
-Findings 1–5 are correlations across a few models on synthetic scenes; findings 6–9 are causal tests on DINO and CLIP; finding 10 is a behavioral test of CLIP itself; finding 11 is a robustness check of the probes.
+12. **Two more networks, DINOv2 and a supervised ViT, are also mirror-blind and also read "left" worse than "upper"; across six ViTs the ranks agree, but narrowly.** Registered on OSF before the run ([osf.io/8s4gm](https://osf.io/8s4gm)). DINOv2 ViT-B/14 with registers and DeiT III ViT-B/16 (supervised on ImageNet-1k classes); both were trained with horizontal flips (checked in their training code). Mirror sensitivity (patch mean, layer 12): DINOv2 0.51 [0.48, 0.54], DeiT III 0.38 [0.35, 0.41]; random networks 0.96–1.08 → both "mirror-blind" (upper bound below 0.90). Gap "upper − left" (far background, layer 12): DINOv2 10.2 [8.6, 11.7] pp, DeiT III 17.2 [15.6, 18.9] pp; random networks −0.2 to 0.1 → both "gap present". Across DINO, CLIP, MAE, I-JEPA, DINOv2 and DeiT III, the rank order by mirror blindness matches the rank order by gap except for CLIP and MAE: Spearman ρ = −0.943, which passes the pre-registered threshold of −0.83 → "the link follows". This verdict is fragile: it rests on a 0.08 pp difference between DINOv2 (10.175) and MAE (10.10), whose intervals nearly coincide; with these two in the other order, ρ would be −0.829 and the verdict "not confirmed". Four of the six points were known before the registration; the networks differ in objective, data, size and patch grid; this is a correlation across models, not a causal test. The paired comparison of MAE and I-JEPA (finding 5) did not confirm the link, and in DINO ablating the MLPs restores "left" while mirror blindness stays (finding 6). DINOv2, trained with the same self-distillation scheme as DINO, is clearly less mirror-blind (0.51 vs. 0.28), so an abstract training objective alone does not explain mirror blindness. All built-in checks pass; no deviations from the registration.
+
+Findings 1–5 and 12 are correlations across models on synthetic scenes; findings 6–9 are causal tests on DINO and CLIP; finding 10 is a behavioral test of CLIP itself; finding 11 is a robustness check of the probes.
 
 ![Figure 1](figures/figure1.png)
 
@@ -89,6 +91,8 @@ python patch_twins.py                                  # twin-token patching acr
 python das_binding.py                                  # distributed alignment search on DINO (~5.5 h on a Mac GPU via MPS)
 python behavior_clip.py                                # CLIP's own caption choice, left–right and top–bottom (~8 min)
 python probe_robust.py                                 # probe robustness: regularization grid and random-side control (~1 min)
+python more_nets.py --model dinov2                     # DINOv2: mirror test + binding probe (~18 min; also --model deit3)
+python more_nets_compare.py                            # rank test across six networks
 python figure1.py                                      # Figure 1
 ```
 
@@ -112,5 +116,6 @@ Each script's header (in Russian) explains what it tests, the decision rule and 
 | `das_binding.py` | Distributed alignment search on DINO: how many directions carry what the "left" probe reads (OSF j2g74) |
 | `behavior_clip.py` | Behavioral test: does CLIP itself prefer the correct caption when only color–position binding differs (OSF 5hn9u) |
 | `probe_robust.py` | Robustness of the binding probes: regularization grid and a random-side control task (OSF 3f9tz) |
+| `more_nets.py`, `more_nets_compare.py` | Mirror test and binding probe on DINOv2 and DeiT III; rank test across six networks (OSF 8s4gm) |
 | `clip_check.py` | Checks that CLIP weights and preprocessing are loaded correctly |
 | `figure1.py` | Figure 1 |

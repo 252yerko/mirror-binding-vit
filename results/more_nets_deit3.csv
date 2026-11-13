@@ -1,0 +1,677 @@
+net,weights,measure,group,query,layer,value,ci_lo,ci_hi,n_scenes
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,cls,,L00,nan,nan,nan,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,cls,,L01,0.54184,0.49715,0.58966,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,cls,,L02,0.80834,0.77375,0.84750,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,cls,,L03,0.90403,0.84127,0.97469,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,cls,,L04,1.19814,1.09296,1.30015,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,cls,,L05,0.81488,0.73175,0.89958,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,cls,,L06,1.07338,0.97708,1.16390,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,cls,,L07,0.88289,0.82699,0.94743,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,cls,,L08,0.58322,0.54571,0.62263,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,cls,,L09,0.46192,0.43289,0.49475,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,cls,,L10,0.39965,0.37210,0.43219,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,cls,,L11,0.37173,0.34284,0.40341,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,cls,,L12,0.40889,0.37701,0.44550,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,mean,,L00,0.89949,0.81792,0.98957,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,mean,,L01,0.88317,0.82870,0.93953,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,mean,,L02,0.90691,0.84784,0.97049,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,mean,,L03,0.79150,0.73783,0.85463,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,mean,,L04,1.28406,1.17964,1.40548,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,mean,,L05,0.68920,0.62675,0.75327,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,mean,,L06,0.54983,0.51432,0.59298,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,mean,,L07,0.41123,0.37911,0.44476,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,mean,,L08,0.27530,0.25145,0.30252,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,mean,,L09,0.25805,0.23496,0.28318,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,mean,,L10,0.27566,0.25318,0.30229,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,mean,,L11,0.32443,0.29855,0.35393,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",mirror,mean,,L12,0.37788,0.34798,0.40586,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,cls,,L00,1.00000,1.00000,1.00000,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,cls,,L01,0.99991,0.99964,1.00018,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,cls,,L02,1.00004,0.99952,1.00057,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,cls,,L03,0.99983,0.99906,1.00075,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,cls,,L04,0.99929,0.99824,1.00041,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,cls,,L05,0.99952,0.99824,1.00088,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,cls,,L06,0.99932,0.99772,1.00090,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,cls,,L07,0.99935,0.99747,1.00132,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,cls,,L08,0.99873,0.99665,1.00100,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,cls,,L09,0.99880,0.99631,1.00116,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,cls,,L10,0.99884,0.99616,1.00149,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,cls,,L11,0.99777,0.99477,1.00056,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,cls,,L12,0.99714,0.99398,1.00047,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,mean,,L00,0.95668,0.89334,1.02351,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,mean,,L01,0.95668,0.89466,1.02177,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,mean,,L02,0.95668,0.89299,1.02811,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,mean,,L03,0.95668,0.89672,1.02039,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,mean,,L04,0.95668,0.90048,1.02449,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,mean,,L05,0.95668,0.89698,1.03149,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,mean,,L06,0.95668,0.90075,1.02322,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,mean,,L07,0.95668,0.89787,1.02486,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,mean,,L08,0.95668,0.89492,1.02313,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,mean,,L09,0.95668,0.89595,1.02422,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,mean,,L10,0.95668,0.89653,1.02873,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,mean,,L11,0.95668,0.89352,1.02629,631
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",mirror,mean,,L12,0.95668,0.89869,1.02600,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,cls,,L00,1.00000,1.00000,1.00000,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,cls,,L01,1.00010,0.99982,1.00036,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,cls,,L02,1.00008,0.99958,1.00065,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,cls,,L03,1.00008,0.99932,1.00096,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,cls,,L04,1.00062,0.99958,1.00177,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,cls,,L05,1.00049,0.99921,1.00181,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,cls,,L06,1.00074,0.99922,1.00226,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,cls,,L07,1.00101,0.99926,1.00297,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,cls,,L08,1.00078,0.99884,1.00293,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,cls,,L09,1.00123,0.99876,1.00353,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,cls,,L10,1.00191,0.99938,1.00456,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,cls,,L11,1.00178,0.99887,1.00468,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,cls,,L12,1.00134,0.99810,1.00473,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,mean,,L00,1.00931,0.94156,1.07860,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,mean,,L01,1.00931,0.94328,1.07746,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,mean,,L02,1.00931,0.94231,1.08240,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,mean,,L03,1.00931,0.94611,1.07663,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,mean,,L04,1.00931,0.95119,1.08053,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,mean,,L05,1.00931,0.94518,1.08635,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,mean,,L06,1.00931,0.95096,1.08226,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,mean,,L07,1.00931,0.94641,1.08162,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,mean,,L08,1.00931,0.94391,1.07897,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,mean,,L09,1.00931,0.94475,1.08076,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,mean,,L10,1.00931,0.94392,1.08546,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,mean,,L11,1.00931,0.94392,1.08135,631
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",mirror,mean,,L12,1.00931,0.94902,1.08223,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,cls,,L00,1.00000,1.00000,1.00000,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,cls,,L01,1.00002,0.99977,1.00027,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,cls,,L02,0.99954,0.99905,1.00005,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,cls,,L03,0.99960,0.99889,1.00042,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,cls,,L04,0.99976,0.99877,1.00079,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,cls,,L05,1.00019,0.99904,1.00139,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,cls,,L06,1.00014,0.99876,1.00156,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,cls,,L07,1.00006,0.99838,1.00179,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,cls,,L08,1.00015,0.99831,1.00210,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,cls,,L09,0.99994,0.99774,1.00205,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,cls,,L10,0.99987,0.99753,1.00225,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,cls,,L11,0.99951,0.99686,1.00204,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,cls,,L12,0.99915,0.99634,1.00226,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,mean,,L00,0.98195,0.91975,1.04646,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,mean,,L01,0.98195,0.91996,1.04703,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,mean,,L02,0.98195,0.91760,1.05079,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,mean,,L03,0.98195,0.92055,1.04604,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,mean,,L04,0.98195,0.92518,1.04919,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,mean,,L05,0.98195,0.92039,1.05482,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,mean,,L06,0.98195,0.92719,1.04774,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,mean,,L07,0.98195,0.92297,1.05084,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,mean,,L08,0.98195,0.92225,1.04754,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,mean,,L09,0.98195,0.92192,1.05402,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,mean,,L10,0.98195,0.92158,1.05408,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,mean,,L11,0.98195,0.92037,1.05232,631
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",mirror,mean,,L12,0.98195,0.92513,1.04981,631
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,left,L00,0.50000,0.50000,0.50000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,left,L01,0.52125,0.50800,0.53376,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,left,L02,0.68125,0.66899,0.69501,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,left,L03,0.69025,0.67700,0.70251,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,left,L04,0.71750,0.70575,0.73001,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,left,L05,0.73975,0.72750,0.75225,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,left,L06,0.74950,0.73750,0.76175,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,left,L07,0.72800,0.71575,0.74150,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,left,L08,0.69075,0.67799,0.70325,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,left,L09,0.63825,0.62450,0.65251,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,left,L10,0.60450,0.59174,0.61926,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,left,L11,0.55100,0.53774,0.56350,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,left,L12,0.55850,0.54674,0.57100,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,left,L00,0.50000,0.50000,0.50000,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,left,L01,0.51381,0.50075,0.52575,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,left,L02,0.55597,0.54328,0.56866,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,left,L03,0.56791,0.55298,0.58134,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,left,L04,0.57164,0.55895,0.58620,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,left,L05,0.56493,0.55149,0.57836,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,left,L06,0.54366,0.53022,0.55634,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,left,L07,0.53209,0.51940,0.54516,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,left,L08,0.50485,0.49327,0.51679,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,left,L09,0.50299,0.48993,0.51418,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,left,L10,0.49739,0.48619,0.50784,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,left,L11,0.49179,0.48134,0.50299,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,left,L12,0.50709,0.49590,0.51940,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,left,L00,0.50000,0.50000,0.50000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,left,L01,0.52900,0.51675,0.54350,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,left,L02,0.59900,0.58600,0.61151,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,left,L03,0.66475,0.65174,0.67625,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,left,L04,0.67700,0.66500,0.69026,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,left,L05,0.70000,0.68924,0.71325,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,left,L06,0.69900,0.68650,0.71101,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,left,L07,0.67875,0.66600,0.69050,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,left,L08,0.63325,0.62075,0.64500,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,left,L09,0.60850,0.59699,0.62051,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,left,L10,0.58925,0.57700,0.60150,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,left,L11,0.57775,0.56525,0.58950,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,left,L12,0.57825,0.56625,0.59050,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,left,L00,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,left,L01,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,left,L02,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,left,L03,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,left,L04,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,left,L05,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,left,L06,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,left,L07,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,left,L08,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,left,L09,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,left,L10,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,left,L11,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,left,L12,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,upper,L00,0.50000,0.50000,0.50000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,upper,L01,0.59150,0.57825,0.60425,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,upper,L02,0.68550,0.67224,0.69901,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,upper,L03,0.76175,0.74999,0.77575,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,upper,L04,0.77525,0.76325,0.78751,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,upper,L05,0.79375,0.78174,0.80500,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,upper,L06,0.81125,0.79899,0.82251,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,upper,L07,0.83475,0.82400,0.84600,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,upper,L08,0.83000,0.81825,0.84126,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,upper,L09,0.82700,0.81624,0.83751,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,upper,L10,0.80125,0.78875,0.81275,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,upper,L11,0.77025,0.75899,0.78250,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,cls,upper,L12,0.75500,0.74275,0.76725,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,upper,L00,0.50000,0.50000,0.50000,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,upper,L01,0.50187,0.49104,0.51306,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,upper,L02,0.55970,0.54664,0.57239,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,upper,L03,0.59179,0.57761,0.60634,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,upper,L04,0.57724,0.56381,0.59067,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,upper,L05,0.57724,0.56381,0.59030,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,upper,L06,0.57575,0.56306,0.58918,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,upper,L07,0.59515,0.58060,0.60933,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,upper,L08,0.58918,0.57648,0.60224,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,upper,L09,0.58134,0.56828,0.59366,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,upper,L10,0.57910,0.56754,0.59104,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,upper,L11,0.57463,0.56231,0.58731,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,unchanged,upper,L12,0.59515,0.58172,0.60821,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,upper,L00,0.50000,0.50000,0.50000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,upper,L01,0.58725,0.57549,0.60026,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,upper,L02,0.64025,0.62700,0.65451,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,upper,L03,0.68225,0.66925,0.69625,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,upper,L04,0.68975,0.67700,0.70275,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,upper,L05,0.73150,0.71849,0.74301,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,upper,L06,0.74400,0.73250,0.75675,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,upper,L07,0.76450,0.75174,0.77676,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,upper,L08,0.76850,0.75600,0.77976,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,upper,L09,0.76050,0.74699,0.77226,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,upper,L10,0.74650,0.73424,0.75875,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,upper,L11,0.74100,0.72874,0.75350,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,far_bg,upper,L12,0.75000,0.73750,0.76251,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,upper,L00,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,upper,L01,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,upper,L02,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,upper,L03,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,upper,L04,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,upper,L05,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,upper,L06,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,upper,L07,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,upper,L08,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,upper,L09,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,upper,L10,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,upper,L11,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",probe,twin,upper,L12,1.00000,1.00000,1.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,cls,,L00,0.00000,0.00000,0.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,cls,,L01,0.07025,0.05300,0.08951,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,cls,,L02,0.00425,-0.01500,0.02300,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,cls,,L03,0.07150,0.05249,0.08877,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,cls,,L04,0.05775,0.04049,0.07551,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,cls,,L05,0.05400,0.03699,0.07200,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,cls,,L06,0.06175,0.04525,0.08101,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,cls,,L07,0.10675,0.08925,0.12426,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,cls,,L08,0.13925,0.12175,0.15625,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,cls,,L09,0.18875,0.17125,0.20601,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,cls,,L10,0.19675,0.18025,0.21401,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,cls,,L11,0.21925,0.20125,0.23751,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,cls,,L12,0.19650,0.17900,0.21401,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,unchanged,,L00,0.00000,0.00000,0.00000,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,unchanged,,L01,-0.01194,-0.02873,0.00448,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,unchanged,,L02,0.00373,-0.01382,0.02164,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,unchanged,,L03,0.02388,0.00521,0.04479,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,unchanged,,L04,0.00560,-0.01382,0.02575,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,unchanged,,L05,0.01231,-0.00561,0.03022,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,unchanged,,L06,0.03209,0.01417,0.05112,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,unchanged,,L07,0.06306,0.04477,0.08097,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,unchanged,,L08,0.08433,0.06642,0.10224,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,unchanged,,L09,0.07836,0.06194,0.09440,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,unchanged,,L10,0.08172,0.06492,0.09740,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,unchanged,,L11,0.08284,0.06642,0.09926,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,unchanged,,L12,0.08806,0.07089,0.10597,1340
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,far_bg,,L00,0.00000,0.00000,0.00000,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,far_bg,,L01,0.05825,0.04050,0.07702,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,far_bg,,L02,0.04125,0.02225,0.05926,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,far_bg,,L03,0.01750,0.00050,0.03551,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,far_bg,,L04,0.01275,-0.00425,0.03002,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,far_bg,,L05,0.03150,0.01425,0.04850,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,far_bg,,L06,0.04500,0.02974,0.06150,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,far_bg,,L07,0.08575,0.06924,0.10351,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,far_bg,,L08,0.13525,0.11974,0.15176,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,far_bg,,L09,0.15200,0.13649,0.16901,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,far_bg,,L10,0.15725,0.14124,0.17326,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,far_bg,,L11,0.16325,0.14649,0.18100,2000
+DeiT III,"обученный DeiT III ViT-B/16, с учителем (timm deit3_base_patch16_224.fb_in1k)",gap_upper_minus_left,far_bg,,L12,0.17175,0.15575,0.18925,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,left,L00,0.50000,0.50000,0.50000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,left,L01,0.49900,0.48674,0.51325,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,left,L02,0.50850,0.49350,0.52151,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,left,L03,0.49825,0.48475,0.51150,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,left,L04,0.50725,0.49350,0.52100,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,left,L05,0.50425,0.49099,0.51726,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,left,L06,0.51875,0.50550,0.53250,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,left,L07,0.49650,0.48424,0.50950,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,left,L08,0.49775,0.48350,0.51125,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,left,L09,0.50850,0.49474,0.52225,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,left,L10,0.50350,0.48974,0.51676,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,left,L11,0.51025,0.49700,0.52375,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,left,L12,0.51075,0.49725,0.52401,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,left,L00,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,left,L01,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,left,L02,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,left,L03,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,left,L04,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,left,L05,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,left,L06,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,left,L07,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,left,L08,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,left,L09,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,left,L10,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,left,L11,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,left,L12,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,left,L00,0.50000,0.50000,0.50000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,left,L01,0.50025,0.50000,0.50075,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,left,L02,0.50025,0.50000,0.50075,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,left,L03,0.50000,0.50000,0.50000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,left,L04,0.50000,0.50000,0.50000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,left,L05,0.50075,0.50000,0.50175,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,left,L06,0.50000,0.50000,0.50000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,left,L07,0.50025,0.50000,0.50075,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,left,L08,0.50000,0.50000,0.50000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,left,L09,0.50000,0.50000,0.50000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,left,L10,0.50000,0.50000,0.50000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,left,L11,0.50025,0.50000,0.50075,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,left,L12,0.50000,0.50000,0.50000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,left,L00,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,left,L01,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,left,L02,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,left,L03,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,left,L04,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,left,L05,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,left,L06,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,left,L07,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,left,L08,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,left,L09,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,left,L10,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,left,L11,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,left,L12,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,upper,L00,0.50000,0.50000,0.50000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,upper,L01,0.50150,0.48749,0.51526,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,upper,L02,0.49825,0.48399,0.51150,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,upper,L03,0.49575,0.48225,0.50901,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,upper,L04,0.51500,0.50150,0.52875,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,upper,L05,0.49300,0.47849,0.50750,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,upper,L06,0.50575,0.49199,0.51926,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,upper,L07,0.49100,0.47725,0.50426,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,upper,L08,0.50325,0.48999,0.51650,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,upper,L09,0.48975,0.47675,0.50475,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,upper,L10,0.51975,0.50550,0.53350,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,upper,L11,0.49700,0.48274,0.51076,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,cls,upper,L12,0.49750,0.48424,0.51201,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,upper,L00,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,upper,L01,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,upper,L02,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,upper,L03,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,upper,L04,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,upper,L05,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,upper,L06,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,upper,L07,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,upper,L08,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,upper,L09,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,upper,L10,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,upper,L11,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,unchanged,upper,L12,0.50000,0.50000,0.50000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,upper,L00,0.50000,0.50000,0.50000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,upper,L01,0.50025,0.50000,0.50075,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,upper,L02,0.49975,0.49900,0.50000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,upper,L03,0.50000,0.50000,0.50000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,upper,L04,0.50000,0.50000,0.50000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,upper,L05,0.49925,0.49825,0.50000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,upper,L06,0.50000,0.50000,0.50000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,upper,L07,0.49975,0.49925,0.50000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,upper,L08,0.50000,0.50000,0.50000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,upper,L09,0.50025,0.50000,0.50075,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,upper,L10,0.49950,0.49875,0.50000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,upper,L11,0.50000,0.50000,0.50000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,far_bg,upper,L12,0.50000,0.50000,0.50000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,upper,L00,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,upper,L01,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,upper,L02,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,upper,L03,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,upper,L04,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,upper,L05,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,upper,L06,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,upper,L07,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,upper,L08,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,upper,L09,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,upper,L10,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,upper,L11,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",probe,twin,upper,L12,1.00000,1.00000,1.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,cls,,L00,0.00000,0.00000,0.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,cls,,L01,0.00250,-0.01701,0.02000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,cls,,L02,-0.01025,-0.02850,0.00850,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,cls,,L03,-0.00250,-0.02051,0.01651,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,cls,,L04,0.00775,-0.01150,0.02751,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,cls,,L05,-0.01125,-0.03076,0.00901,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,cls,,L06,-0.01300,-0.03300,0.00601,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,cls,,L07,-0.00550,-0.02401,0.01300,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,cls,,L08,0.00550,-0.01375,0.02400,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,cls,,L09,-0.01875,-0.03725,0.00027,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,cls,,L10,0.01625,-0.00201,0.03600,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,cls,,L11,-0.01325,-0.03350,0.00576,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,cls,,L12,-0.01325,-0.03250,0.00475,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,unchanged,,L00,0.00000,0.00000,0.00000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,unchanged,,L01,0.00000,0.00000,0.00000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,unchanged,,L02,0.00000,0.00000,0.00000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,unchanged,,L03,0.00000,0.00000,0.00000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,unchanged,,L04,0.00000,0.00000,0.00000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,unchanged,,L05,0.00000,0.00000,0.00000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,unchanged,,L06,0.00000,0.00000,0.00000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,unchanged,,L07,0.00000,0.00000,0.00000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,unchanged,,L08,0.00000,0.00000,0.00000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,unchanged,,L09,0.00000,0.00000,0.00000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,unchanged,,L10,0.00000,0.00000,0.00000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,unchanged,,L11,0.00000,0.00000,0.00000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,unchanged,,L12,0.00000,0.00000,0.00000,1340
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,far_bg,,L00,0.00000,0.00000,0.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,far_bg,,L01,0.00000,0.00000,0.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,far_bg,,L02,-0.00050,-0.00150,0.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,far_bg,,L03,0.00000,0.00000,0.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,far_bg,,L04,0.00000,0.00000,0.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,far_bg,,L05,-0.00150,-0.00350,0.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,far_bg,,L06,0.00000,0.00000,0.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,far_bg,,L07,-0.00050,-0.00150,0.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,far_bg,,L08,0.00000,0.00000,0.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,far_bg,,L09,0.00025,0.00000,0.00075,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,far_bg,,L10,-0.00050,-0.00125,0.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,far_bg,,L11,-0.00025,-0.00075,0.00000,2000
+deit3_rand0,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 0",gap_upper_minus_left,far_bg,,L12,0.00000,0.00000,0.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,left,L00,0.50000,0.50000,0.50000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,left,L01,0.50850,0.49549,0.52101,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,left,L02,0.50025,0.48649,0.51375,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,left,L03,0.50600,0.49249,0.51901,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,left,L04,0.50175,0.48875,0.51450,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,left,L05,0.50200,0.48849,0.51626,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,left,L06,0.50300,0.48899,0.51625,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,left,L07,0.50825,0.49424,0.52150,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,left,L08,0.49850,0.48549,0.51250,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,left,L09,0.50975,0.49699,0.52250,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,left,L10,0.50075,0.48775,0.51450,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,left,L11,0.51000,0.49700,0.52376,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,left,L12,0.50900,0.49500,0.52201,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,left,L00,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,left,L01,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,left,L02,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,left,L03,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,left,L04,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,left,L05,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,left,L06,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,left,L07,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,left,L08,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,left,L09,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,left,L10,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,left,L11,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,left,L12,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,left,L00,0.50000,0.50000,0.50000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,left,L01,0.50000,0.50000,0.50000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,left,L02,0.50000,0.50000,0.50000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,left,L03,0.50050,0.50000,0.50125,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,left,L04,0.50025,0.50000,0.50075,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,left,L05,0.50000,0.50000,0.50000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,left,L06,0.49975,0.49925,0.50000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,left,L07,0.50000,0.50000,0.50000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,left,L08,0.50025,0.50000,0.50075,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,left,L09,0.50025,0.50000,0.50075,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,left,L10,0.50000,0.49925,0.50075,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,left,L11,0.50000,0.50000,0.50000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,left,L12,0.50000,0.50000,0.50000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,left,L00,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,left,L01,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,left,L02,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,left,L03,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,left,L04,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,left,L05,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,left,L06,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,left,L07,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,left,L08,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,left,L09,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,left,L10,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,left,L11,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,left,L12,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,upper,L00,0.50000,0.50000,0.50000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,upper,L01,0.49375,0.48075,0.50875,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,upper,L02,0.50275,0.48875,0.51625,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,upper,L03,0.49975,0.48575,0.51326,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,upper,L04,0.49800,0.48374,0.51150,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,upper,L05,0.49100,0.47750,0.50550,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,upper,L06,0.49950,0.48625,0.51276,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,upper,L07,0.51050,0.49699,0.52401,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,upper,L08,0.50025,0.48575,0.51350,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,upper,L09,0.49125,0.47750,0.50400,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,upper,L10,0.51075,0.49674,0.52426,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,upper,L11,0.48800,0.47475,0.50051,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,cls,upper,L12,0.51050,0.49674,0.52451,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,upper,L00,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,upper,L01,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,upper,L02,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,upper,L03,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,upper,L04,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,upper,L05,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,upper,L06,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,upper,L07,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,upper,L08,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,upper,L09,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,upper,L10,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,upper,L11,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,unchanged,upper,L12,0.50000,0.50000,0.50000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,upper,L00,0.50000,0.50000,0.50000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,upper,L01,0.50000,0.50000,0.50000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,upper,L02,0.50000,0.50000,0.50000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,upper,L03,0.49975,0.49925,0.50000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,upper,L04,0.49975,0.49925,0.50000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,upper,L05,0.49975,0.49925,0.50000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,upper,L06,0.50000,0.50000,0.50000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,upper,L07,0.50000,0.50000,0.50000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,upper,L08,0.50025,0.50000,0.50075,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,upper,L09,0.50025,0.50000,0.50075,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,upper,L10,0.50025,0.50000,0.50075,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,upper,L11,0.50000,0.50000,0.50000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,far_bg,upper,L12,0.50000,0.50000,0.50000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,upper,L00,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,upper,L01,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,upper,L02,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,upper,L03,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,upper,L04,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,upper,L05,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,upper,L06,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,upper,L07,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,upper,L08,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,upper,L09,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,upper,L10,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,upper,L11,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",probe,twin,upper,L12,1.00000,1.00000,1.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,cls,,L00,0.00000,0.00000,0.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,cls,,L01,-0.01475,-0.03276,0.00251,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,cls,,L02,0.00250,-0.01675,0.02150,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,cls,,L03,-0.00625,-0.02600,0.01575,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,cls,,L04,-0.00375,-0.02350,0.01450,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,cls,,L05,-0.01100,-0.03025,0.00727,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,cls,,L06,-0.00350,-0.02275,0.01650,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,cls,,L07,0.00225,-0.01675,0.02151,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,cls,,L08,0.00175,-0.01600,0.02176,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,cls,,L09,-0.01850,-0.03800,-0.00075,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,cls,,L10,0.01000,-0.00901,0.02926,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,cls,,L11,-0.02200,-0.04125,-0.00324,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,cls,,L12,0.00150,-0.01701,0.02050,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,unchanged,,L00,0.00000,0.00000,0.00000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,unchanged,,L01,0.00000,0.00000,0.00000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,unchanged,,L02,0.00000,0.00000,0.00000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,unchanged,,L03,0.00000,0.00000,0.00000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,unchanged,,L04,0.00000,0.00000,0.00000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,unchanged,,L05,0.00000,0.00000,0.00000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,unchanged,,L06,0.00000,0.00000,0.00000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,unchanged,,L07,0.00000,0.00000,0.00000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,unchanged,,L08,0.00000,0.00000,0.00000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,unchanged,,L09,0.00000,0.00000,0.00000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,unchanged,,L10,0.00000,0.00000,0.00000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,unchanged,,L11,0.00000,0.00000,0.00000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,unchanged,,L12,0.00000,0.00000,0.00000,1340
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,far_bg,,L00,0.00000,0.00000,0.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,far_bg,,L01,0.00000,0.00000,0.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,far_bg,,L02,0.00000,0.00000,0.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,far_bg,,L03,-0.00075,-0.00200,0.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,far_bg,,L04,-0.00050,-0.00150,0.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,far_bg,,L05,-0.00025,-0.00075,0.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,far_bg,,L06,0.00025,0.00000,0.00100,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,far_bg,,L07,0.00000,0.00000,0.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,far_bg,,L08,0.00000,0.00000,0.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,far_bg,,L09,0.00000,0.00000,0.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,far_bg,,L10,0.00025,-0.00075,0.00150,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,far_bg,,L11,0.00000,0.00000,0.00000,2000
+deit3_rand1,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 1",gap_upper_minus_left,far_bg,,L12,0.00000,0.00000,0.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,left,L00,0.50000,0.50000,0.50000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,left,L01,0.50450,0.49075,0.51876,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,left,L02,0.51025,0.49649,0.52325,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,left,L03,0.50150,0.48800,0.51550,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,left,L04,0.49925,0.48524,0.51276,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,left,L05,0.49525,0.48175,0.50925,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,left,L06,0.50850,0.49475,0.52151,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,left,L07,0.50475,0.49174,0.51800,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,left,L08,0.50350,0.49050,0.51676,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,left,L09,0.49550,0.48175,0.50926,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,left,L10,0.49075,0.47824,0.50451,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,left,L11,0.50350,0.49000,0.51775,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,left,L12,0.49975,0.48625,0.51375,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,left,L00,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,left,L01,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,left,L02,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,left,L03,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,left,L04,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,left,L05,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,left,L06,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,left,L07,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,left,L08,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,left,L09,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,left,L10,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,left,L11,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,left,L12,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,left,L00,0.50000,0.50000,0.50000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,left,L01,0.50000,0.50000,0.50000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,left,L02,0.50000,0.50000,0.50000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,left,L03,0.49975,0.49925,0.50000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,left,L04,0.50025,0.50000,0.50075,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,left,L05,0.50025,0.50000,0.50075,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,left,L06,0.49975,0.49925,0.50000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,left,L07,0.50025,0.50000,0.50100,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,left,L08,0.50000,0.50000,0.50000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,left,L09,0.49950,0.49874,0.50000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,left,L10,0.49950,0.49875,0.50000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,left,L11,0.50050,0.50000,0.50125,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,left,L12,0.50000,0.49900,0.50100,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,left,L00,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,left,L01,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,left,L02,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,left,L03,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,left,L04,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,left,L05,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,left,L06,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,left,L07,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,left,L08,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,left,L09,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,left,L10,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,left,L11,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,left,L12,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,upper,L00,0.50000,0.50000,0.50000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,upper,L01,0.48975,0.47650,0.50250,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,upper,L02,0.49875,0.48500,0.51276,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,upper,L03,0.49325,0.47975,0.50650,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,upper,L04,0.49625,0.48350,0.50976,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,upper,L05,0.50350,0.49050,0.51675,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,upper,L06,0.50375,0.49050,0.51701,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,upper,L07,0.49725,0.48300,0.51051,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,upper,L08,0.49750,0.48375,0.51100,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,upper,L09,0.49625,0.48275,0.51050,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,upper,L10,0.50975,0.49600,0.52300,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,upper,L11,0.51400,0.50025,0.52751,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,cls,upper,L12,0.50025,0.48674,0.51325,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,upper,L00,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,upper,L01,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,upper,L02,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,upper,L03,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,upper,L04,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,upper,L05,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,upper,L06,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,upper,L07,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,upper,L08,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,upper,L09,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,upper,L10,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,upper,L11,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,unchanged,upper,L12,0.50000,0.50000,0.50000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,upper,L00,0.50000,0.50000,0.50000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,upper,L01,0.50000,0.50000,0.50000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,upper,L02,0.50000,0.50000,0.50000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,upper,L03,0.50000,0.50000,0.50000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,upper,L04,0.49975,0.49925,0.50000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,upper,L05,0.49975,0.49900,0.50000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,upper,L06,0.50025,0.50000,0.50075,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,upper,L07,0.50025,0.50000,0.50075,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,upper,L08,0.50000,0.50000,0.50000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,upper,L09,0.50050,0.50000,0.50125,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,upper,L10,0.50000,0.49925,0.50075,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,upper,L11,0.50000,0.49925,0.50075,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,far_bg,upper,L12,0.50050,0.49950,0.50150,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,upper,L00,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,upper,L01,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,upper,L02,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,upper,L03,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,upper,L04,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,upper,L05,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,upper,L06,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,upper,L07,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,upper,L08,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,upper,L09,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,upper,L10,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,upper,L11,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",probe,twin,upper,L12,1.00000,1.00000,1.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,cls,,L00,0.00000,0.00000,0.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,cls,,L01,-0.01475,-0.03401,0.00500,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,cls,,L02,-0.01150,-0.02900,0.00750,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,cls,,L03,-0.00825,-0.02750,0.01075,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,cls,,L04,-0.00300,-0.02150,0.01726,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,cls,,L05,0.00825,-0.01051,0.02825,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,cls,,L06,-0.00475,-0.02375,0.01475,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,cls,,L07,-0.00750,-0.02675,0.01101,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,cls,,L08,-0.00600,-0.02451,0.01425,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,cls,,L09,0.00075,-0.01725,0.02051,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,cls,,L10,0.01900,0.00000,0.03700,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,cls,,L11,0.01050,-0.00851,0.02926,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,cls,,L12,0.00050,-0.01950,0.01950,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,unchanged,,L00,0.00000,0.00000,0.00000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,unchanged,,L01,0.00000,0.00000,0.00000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,unchanged,,L02,0.00000,0.00000,0.00000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,unchanged,,L03,0.00000,0.00000,0.00000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,unchanged,,L04,0.00000,0.00000,0.00000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,unchanged,,L05,0.00000,0.00000,0.00000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,unchanged,,L06,0.00000,0.00000,0.00000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,unchanged,,L07,0.00000,0.00000,0.00000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,unchanged,,L08,0.00000,0.00000,0.00000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,unchanged,,L09,0.00000,0.00000,0.00000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,unchanged,,L10,0.00000,0.00000,0.00000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,unchanged,,L11,0.00000,0.00000,0.00000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,unchanged,,L12,0.00000,0.00000,0.00000,1340
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,far_bg,,L00,0.00000,0.00000,0.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,far_bg,,L01,0.00000,0.00000,0.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,far_bg,,L02,0.00000,0.00000,0.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,far_bg,,L03,0.00025,0.00000,0.00075,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,far_bg,,L04,-0.00050,-0.00150,0.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,far_bg,,L05,-0.00050,-0.00125,0.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,far_bg,,L06,0.00050,0.00000,0.00150,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,far_bg,,L07,0.00000,0.00000,0.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,far_bg,,L08,0.00000,0.00000,0.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,far_bg,,L09,0.00100,0.00000,0.00250,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,far_bg,,L10,0.00050,0.00000,0.00150,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,far_bg,,L11,-0.00050,-0.00150,0.00000,2000
+deit3_rand2,"СЛУЧАЙНЫЕ deit3_base_patch16_224 (нулевая модель), seed 2",gap_upper_minus_left,far_bg,,L12,0.00050,-0.00100,0.00200,2000
