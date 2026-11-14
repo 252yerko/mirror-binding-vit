@@ -1,0 +1,7 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Скачиваю http://images.cocodataset.org/zips/val2017.zip (≈ 0,8 ГБ)…
+UC Merced: файлов 2100, классов 21; md5 архива 5b7ec56793786b6dc8a908e8854ac0e4; размеры выбранных: {(256, 256): 1026, (253, 256): 5, (256, 253): 2, (250, 256): 2, (252, 256): 1, (256, 251): 3, (257, 257): 1, (256, 254): 1, (255, 256): 2, (247, 247): 4, (254, 256): 2, (242, 256): 1}
+COCO val2017: 5000 фото; md5 архива 442b8da7639aecaf257c1dceb8ba8c80
+Выбрано: аэрофото 1050, COCO для C1 1050, COCO-фоны для C2 2000
+photos_lists.json: md5 860c21b279bf092050f3717718ee509f
+Превью: photos_c2_preview.png (S | Sp на фото), photos_c1_preview.png (аэрофото | ←→ | ↑↓)

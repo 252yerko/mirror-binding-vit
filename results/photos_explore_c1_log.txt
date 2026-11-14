@@ -1,0 +1,72 @@
+Опыт C, C1, РАЗВЕДОЧНО (после запуска, не правило регистрации dprnk): d(←→) и d(↑↓) по отдельности
+
+сеть                           набор      d(←→)    d(↑↓)  отнош.  совпадает с photos_c1.csv
+DINO S/16                      aerial    0.0016   0.0153   0.105  ✅
+DINO S/16                      coco      0.0010   0.0503   0.020  ✅
+DINO S/16 [случ. 0]            aerial    0.0135   0.0143   0.947  ✅
+DINO S/16 [случ. 0]            coco      0.0097   0.0179   0.539  ✅
+DINO B/16                      synth     0.0007   0.0025   0.284  —
+DINO B/16                      aerial    0.0027   0.0262   0.102  ✅
+DINO B/16                      coco      0.0016   0.0621   0.026  ✅
+DINO B/16 [случ. 0]            aerial    0.0118   0.0132   0.897  ✅
+DINO B/16 [случ. 0]            coco      0.0070   0.0149   0.467  ✅
+DINOv2 S/14                    aerial    0.0207   0.0574   0.361  ✅
+DINOv2 S/14                    coco      0.0335   0.1868   0.180  ✅
+DINOv2 B/14                    aerial    0.0135   0.0498   0.272  ✅
+DINOv2 B/14                    coco      0.0122   0.1729   0.071  ✅
+DINOv2 L/14                    aerial    0.0072   0.0305   0.235  ✅
+DINOv2 L/14                    coco      0.0054   0.1200   0.045  ✅
+DINOv2-reg S/14                aerial    0.0185   0.0592   0.313  ✅
+DINOv2-reg S/14                coco      0.0250   0.1972   0.127  ✅
+DINOv2-reg B/14                synth     0.0019   0.0037   0.511  —
+DINOv2-reg B/14                aerial    0.0137   0.0474   0.289  ✅
+DINOv2-reg B/14                coco      0.0154   0.1479   0.104  ✅
+DINOv2-reg B/14 [случ. 0]      aerial    0.0160   0.0176   0.911  ✅
+DINOv2-reg B/14 [случ. 0]      coco      0.0161   0.0296   0.544  ✅
+DINOv2-reg L/14                aerial    0.0057   0.0236   0.241  ✅
+DINOv2-reg L/14                coco      0.0043   0.0906   0.048  ✅
+MAE B/16                       aerial    0.0050   0.0056   0.889  ✅
+MAE B/16                       coco      0.0022   0.0043   0.500  ✅
+MAE L/16                       aerial    0.0057   0.0063   0.908  ✅
+MAE L/16                       coco      0.0019   0.0035   0.545  ✅
+CLIP-OpenAI B/16               synth     0.0029   0.0047   0.613  —
+CLIP-OpenAI B/16               aerial    0.0082   0.0199   0.410  ✅
+CLIP-OpenAI B/16               coco      0.0045   0.0525   0.085  ✅
+CLIP-OpenAI B/16 [случ. 0]     aerial    0.0140   0.0135   1.037  ✅
+CLIP-OpenAI B/16 [случ. 0]     coco      0.0089   0.0153   0.583  ✅
+CLIP-OpenAI L/14               aerial    0.0059   0.0128   0.457  ✅
+CLIP-OpenAI L/14               coco      0.0046   0.0404   0.114  ✅
+CLIP-LAION B/16                aerial    0.0086   0.0191   0.452  ✅
+CLIP-LAION B/16                coco      0.0067   0.0610   0.110  ✅
+CLIP-LAION L/14                aerial    0.0052   0.0126   0.411  ✅
+CLIP-LAION L/14                coco      0.0055   0.0554   0.100  ✅
+MetaCLIP B/16                  aerial    0.0078   0.0162   0.481  ✅
+MetaCLIP B/16                  coco      0.0054   0.0405   0.134  ✅
+DFN B/16                       aerial    0.0072   0.0185   0.392  ✅
+DFN B/16                       coco      0.0049   0.0558   0.088  ✅
+SigLIP B/16                    aerial    0.0073   0.0169   0.432  ✅
+SigLIP B/16                    coco      0.0068   0.0733   0.093  ✅
+SigLIP B/16 [случ. 0]          aerial    0.0123   0.0150   0.821  ✅
+SigLIP B/16 [случ. 0]          coco      0.0074   0.0161   0.459  ✅
+DeiT III S/16                  aerial    0.0061   0.0182   0.338  ✅
+DeiT III S/16                  coco      0.0073   0.0846   0.087  ✅
+DeiT III B/16                  synth     0.0006   0.0016   0.378  —
+DeiT III B/16                  aerial    0.0068   0.0291   0.234  ✅
+DeiT III B/16                  coco      0.0048   0.0964   0.050  ✅
+DeiT III B/16 [случ. 0]        aerial    0.0232   0.0258   0.900  ✅
+DeiT III B/16 [случ. 0]        coco      0.0217   0.0421   0.515  ✅
+DeiT III L/16                  aerial    0.0047   0.0255   0.184  ✅
+DeiT III L/16                  coco      0.0025   0.0719   0.034  ✅
+DeiT B/16                      aerial    0.0328   0.1240   0.265  ✅
+DeiT B/16                      coco      0.0209   0.3113   0.067  ✅
+AugReg S/16                    aerial    0.0160   0.0701   0.228  ✅
+AugReg S/16                    coco      0.0090   0.1993   0.045  ✅
+AugReg B/16                    aerial    0.0157   0.0595   0.264  ✅
+AugReg B/16                    coco      0.0085   0.1785   0.047  ✅
+AugReg L/16                    aerial    0.0162   0.0549   0.295  ✅
+AugReg L/16                    coco      0.0091   0.1796   0.051  ✅
+AugReg L/16 [случ. 0]          aerial    0.0123   0.0125   0.991  ✅
+AugReg L/16 [случ. 0]          coco      0.0067   0.0123   0.543  ✅
+
+Отношения совпадают с photos_c1.csv: ✅
+Разведочно, после запуска; не правило регистрации dprnk.

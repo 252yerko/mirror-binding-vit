@@ -1,6 +1,7 @@
 torch>=2.4
 torchvision
 timm==1.0.30
+huggingface_hub
 open_clip_torch
 numpy
 scikit-learn

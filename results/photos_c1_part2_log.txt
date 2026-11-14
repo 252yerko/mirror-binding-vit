@@ -1,0 +1,137 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+  Проверка 8 (данные): классов 21, по [50] снимков; COCO 2000 + 1050, пересечений 0  ✅;  md5 photos_lists.json = 860c21b279bf092050f3717718ee509f
+Опыт C, C1, часть 2   timm 1.0.30, torch 2.14.0; аэрофото 1050, COCO 1050
+
+### MAE B/16: обученная vit_base_patch16_224.mae   отпечаток весов 12768.7334
+/Users/yernazar/Desktop/binding-vit/photos.py:230: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /Users/runner/work/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:219.)
+  x = torch.from_numpy(a).permute(2, 0, 1).float() / 255.0
+  Проверка 8: сетка (14, 14); служебных токенов 1; блоков 12; нормировка (0.485, 0.456, 0.406)/(0.229, 0.224, 0.225)  ✅
+  Проверка 3: макс. разница 0.00e+00 ✅;  Проверка 4: 0.00e+00 ✅
+    картинок 16/3150  (0 с)
+    картинок 1616/3150  (26 с)
+    картинок 16/3150  (0 с)
+    картинок 1616/3150  (26 с)
+  aerial: отношение 0.889 [0.873–0.904]; CLS 0.818
+  coco  : отношение 0.500 [0.482–0.519]; CLS 0.427
+  (109 с)
+
+### MAE L/16: обученная vit_large_patch16_224.mae   отпечаток весов 17345.5957
+  Проверка 8: сетка (14, 14); служебных токенов 1; блоков 24; нормировка (0.485, 0.456, 0.406)/(0.229, 0.224, 0.225)  ✅
+  Проверка 3: макс. разница 0.00e+00 ✅;  Проверка 4: 0.00e+00 ✅
+    картинок 16/3150  (1 с)
+    картинок 1616/3150  (86 с)
+    картинок 16/3150  (1 с)
+    картинок 1616/3150  (85 с)
+  aerial: отношение 0.908 [0.894–0.920]; CLS 0.795
+  coco  : отношение 0.545 [0.528–0.565]; CLS 0.342
+  (337 с)
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/model.safetensors
+Retrying in 1s [Retry 1/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/model.safetensors
+Retrying in 2s [Retry 2/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/model.safetensors
+Retrying in 4s [Retry 3/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/model.safetensors
+Retrying in 8s [Retry 4/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/model.safetensors
+Retrying in 8s [Retry 5/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/timm/vit_base_patch16_clip_224.openai/resolve/main/model.safetensors
+
+### CLIP-OpenAI B/16: обученная vit_base_patch16_clip_quickgelu_224.openai   отпечаток весов 7665.7715
+  Проверка 8: сетка (14, 14); служебных токенов 1; блоков 12; нормировка (0.481, 0.458, 0.408)/(0.269, 0.261, 0.276)  ✅
+  Проверка 3: макс. разница 0.00e+00 ✅;  Проверка 4: 0.00e+00 ✅
+    картинок 16/3150  (0 с)
+    картинок 1616/3150  (29 с)
+    картинок 16/3150  (0 с)
+    картинок 1616/3150  (28 с)
+    картинок 16/1893  (0 с)
+    картинок 1616/1893  (28 с)
+  aerial: отношение 0.410 [0.392–0.431]; CLS 0.390
+  coco  : отношение 0.085 [0.081–0.091]; CLS 0.129
+  Проверка 9а (синтетика, 631 сцен): отношение 0.613 / в опыте B 0.613  ✅
+  (190 с)
+
+### CLIP-OpenAI B/16 [случайная, seed 0]: СЛУЧАЙНАЯ vit_base_patch16_clip_quickgelu_224 (нулевая модель), seed 0   отпечаток весов 10638.7832
+  Проверка 8: сетка (14, 14); служебных токенов 1; блоков 12; нормировка (0.481, 0.458, 0.408)/(0.269, 0.261, 0.276)  ✅
+  Проверка 3: макс. разница 0.00e+00 ✅;  Проверка 4: 0.00e+00 ✅
+    картинок 16/3150  (0 с)
+    картинок 1616/3150  (29 с)
+    картинок 16/3150  (0 с)
+    картинок 1616/3150  (29 с)
+  aerial: отношение 1.037 [0.909–1.191]; CLS 1.036
+  coco  : отношение 0.583 [0.538–0.631]; CLS 0.578
+  (112 с)
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/timm/vit_large_patch14_clip_224.openai/resolve/main/model.safetensors
+Retrying in 1s [Retry 1/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/timm/vit_large_patch14_clip_224.openai/resolve/main/model.safetensors
+Retrying in 2s [Retry 2/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/timm/vit_large_patch14_clip_224.openai/resolve/main/model.safetensors
+Retrying in 4s [Retry 3/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/timm/vit_large_patch14_clip_224.openai/resolve/main/model.safetensors
+Retrying in 8s [Retry 4/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/timm/vit_large_patch14_clip_224.openai/resolve/main/model.safetensors
+Retrying in 8s [Retry 5/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting HEAD https://huggingface.co/timm/vit_large_patch14_clip_224.openai/resolve/main/model.safetensors
+
+### CLIP-OpenAI L/14: обученная vit_large_patch14_clip_quickgelu_224.openai   отпечаток весов 7680.1694
+  Проверка 8: сетка (16, 16); служебных токенов 1; блоков 24; нормировка (0.481, 0.458, 0.408)/(0.269, 0.261, 0.276)  ✅
+  Проверка 3: макс. разница 0.00e+00 ✅;  Проверка 4: 0.00e+00 ✅
+    картинок 16/3150  (1 с)
+    картинок 1616/3150  (121 с)
+    картинок 16/3150  (1 с)
+    картинок 1616/3150  (120 с)
+  aerial: отношение 0.457 [0.434–0.483]; CLS 0.466
+  coco  : отношение 0.114 [0.108–0.121]; CLS 0.157
+  (498 с)
+
+### CLIP-LAION B/16: обученная vit_base_patch16_clip_224.laion2b   отпечаток весов 9546.8320
+  Проверка 8: сетка (14, 14); служебных токенов 1; блоков 12; нормировка (0.481, 0.458, 0.408)/(0.269, 0.261, 0.276)  ✅
+  Проверка 3: макс. разница 0.00e+00 ✅;  Проверка 4: 0.00e+00 ✅
+    картинок 16/3150  (0 с)
+    картинок 1616/3150  (26 с)
+    картинок 16/3150  (0 с)
+    картинок 1616/3150  (26 с)
+  aerial: отношение 0.452 [0.432–0.470]; CLS 0.415
+  coco  : отношение 0.110 [0.104–0.117]; CLS 0.142
+  (105 с)
+
+### CLIP-LAION L/14: обученная vit_large_patch14_clip_224.laion2b   отпечаток весов 7841.0693
+  Проверка 8: сетка (16, 16); служебных токенов 1; блоков 24; нормировка (0.5, 0.5, 0.5)/(0.5, 0.5, 0.5)  ✅
+  Проверка 3: макс. разница 0.00e+00 ✅;  Проверка 4: 0.00e+00 ✅
+    картинок 16/3150  (1 с)
+    картинок 1616/3150  (111 с)
+    картинок 16/3150  (1 с)
+    картинок 1616/3150  (111 с)
+  aerial: отношение 0.411 [0.394–0.429]; CLS 0.450
+  coco  : отношение 0.100 [0.094–0.106]; CLS 0.142
+  (443 с)
+
+### MetaCLIP B/16: обученная vit_base_patch16_clip_quickgelu_224.metaclip_400m   отпечаток весов 7929.8833
+  Проверка 8: сетка (14, 14); служебных токенов 1; блоков 12; нормировка (0.481, 0.458, 0.408)/(0.269, 0.261, 0.276)  ✅
+  Проверка 3: макс. разница 0.00e+00 ✅;  Проверка 4: 0.00e+00 ✅
+    картинок 16/3150  (0 с)
+    картинок 1616/3150  (28 с)
+    картинок 16/3150  (0 с)
+    картинок 1616/3150  (28 с)
+  aerial: отношение 0.481 [0.464–0.499]; CLS 0.473
+  coco  : отношение 0.134 [0.127–0.141]; CLS 0.174
+  (113 с)
+
+### DFN B/16: обученная vit_base_patch16_clip_224.dfn2b   отпечаток весов 9638.5508
+  Проверка 8: сетка (14, 14); служебных токенов 1; блоков 12; нормировка (0.481, 0.458, 0.408)/(0.269, 0.261, 0.276)  ✅
+  Проверка 3: макс. разница 0.00e+00 ✅;  Проверка 4: 0.00e+00 ✅
+    картинок 16/3150  (0 с)
+    картинок 1616/3150  (26 с)
+    картинок 16/3150  (0 с)
+    картинок 1616/3150  (26 с)
+  aerial: отношение 0.392 [0.375–0.408]; CLS 0.401
+  coco  : отношение 0.088 [0.084–0.094]; CLS 0.120
+  (103 с)
+Проверка 3 (прогон = forward_features): ✅
+Проверка 4 (пустая картинка): ✅
+Проверка 6 (случайные отличаются от обученных): ✅
+Проверка 7 (сетка / токены / блоки): ✅
+Проверка 8 (данные): ✅
+Проверка 9 (9а: отношение на синтетике = опыт B): ✅
+
+Числа дописаны в photos_c1.csv

@@ -97,3 +97,14 @@
 2026-11-13 21:53 UTC  97039a8d731e  many_nets_rules.csv
 2026-11-13 21:53 UTC  b6dc134b684b  many_nets_summary_log.txt
 2026-11-14 14:37 UTC  bc8ff145b3d7  many_nets_explore_log.txt
+2026-11-14 16:14 UTC  8fc76ebd2d40  photos_prepare_log.txt
+2026-11-14 17:16 UTC  bbcefcbd8c5f  photos_c1_part1_log.txt
+2026-11-14 18:08 UTC  f382205f8683  photos_c1_part2_log.txt
+2026-11-14 18:41 UTC  8dc6ed91a612  photos_c1.csv
+2026-11-14 18:41 UTC  fc5bb43732fa  photos_c1_part3_log.txt
+2026-11-14 19:17 UTC  0b3a48314cba  photos_c2.csv
+2026-11-14 19:17 UTC  9db0c6fa5ac0  photos_c2_log.txt
+2026-11-14 19:23 UTC  0d4eb914811b  photos_rules.csv
+2026-11-14 19:23 UTC  cbb63da8200b  photos_summary_log.txt
+2026-11-14 19:34 UTC  c27ff725ad45  photos_explore_log.txt
+2026-11-14 19:39 UTC  ecf37cc19e8b  photos_explore_c1_log.txt
