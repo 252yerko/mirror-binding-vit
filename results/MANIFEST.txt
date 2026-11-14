@@ -90,3 +90,10 @@
 2026-11-13 08:45 UTC  2dcbd9cf401c  mirror_decomp_deit3.csv
 2026-11-13 08:45 UTC  0dcfda2a5741  mirror_decomp_deit3_log.txt
 2026-11-13 08:45 UTC  702ca6d21a4d  mirror_decomp_summary_log.txt
+2026-11-13 19:42 UTC  aec958966b39  many_nets_part1_log.txt
+2026-11-13 20:41 UTC  c7bec5004e9f  many_nets_part2_log.txt
+2026-11-13 21:52 UTC  c1897ff35aaa  many_nets.csv
+2026-11-13 21:52 UTC  faa3c0644599  many_nets_part3_log.txt
+2026-11-13 21:53 UTC  97039a8d731e  many_nets_rules.csv
+2026-11-13 21:53 UTC  b6dc134b684b  many_nets_summary_log.txt
+2026-11-14 14:37 UTC  bc8ff145b3d7  many_nets_explore_log.txt
