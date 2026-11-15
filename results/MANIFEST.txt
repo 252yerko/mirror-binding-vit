@@ -108,3 +108,15 @@
 2026-11-14 19:23 UTC  cbb63da8200b  photos_summary_log.txt
 2026-11-14 19:34 UTC  c27ff725ad45  photos_explore_log.txt
 2026-11-14 19:39 UTC  ecf37cc19e8b  photos_explore_c1_log.txt
+2026-11-15 08:34 UTC  faad578f17cf  heads_dino_log.txt
+2026-11-15 10:28 UTC  2c7eee2d10bd  heads_deit3_log.txt
+2026-11-15 10:34 UTC  19da3b244e47  heads_check1_log.txt
+2026-11-15 11:46 UTC  e0329d763fd8  heads_clip_log.txt
+2026-11-15 11:46 UTC  689dd0d8f669  heads_m.csv
+2026-11-15 11:46 UTC  a3a8c2a57f50  heads_f2.csv
+2026-11-15 14:50 UTC  34a61076d460  heads_f3_log.txt
+2026-11-15 14:50 UTC  f8210ead19bf  heads_f3.csv
+2026-11-15 14:55 UTC  2fa316243fc4  heads_rules.csv
+2026-11-15 14:55 UTC  fb855973d13e  heads_summary_log.txt
+2026-11-15 14:56 UTC  ac72f761f9d1  heads_explore_log.txt
+2026-11-15 14:56 UTC  53398d5f1bd6  heads_explore.csv
