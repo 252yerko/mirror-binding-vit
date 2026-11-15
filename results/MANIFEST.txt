@@ -120,3 +120,15 @@
 2026-11-15 14:55 UTC  fb855973d13e  heads_summary_log.txt
 2026-11-15 14:56 UTC  ac72f761f9d1  heads_explore_log.txt
 2026-11-15 14:56 UTC  53398d5f1bd6  heads_explore.csv
+2026-11-15 15:50 UTC  1b4b21215f4b  heads_stripes_log.txt
+2026-11-15 15:50 UTC  f1ff13ecae3a  heads_stripes.csv
+2026-11-15 19:06 UTC  51554c3fe196  heads_pair_heads.csv
+2026-11-15 19:06 UTC  75a8bb1d6080  heads_pair_maps_log.txt
+2026-11-15 19:06 UTC  d94a68fe8758  heads_pair_rules_maps.csv
+2026-11-15 19:06 UTC  ffa6c4b595c7  heads_pair_pairs.csv
+2026-11-15 21:04 UTC  58ed689c82ed  heads_pair_g2.csv
+2026-11-15 21:04 UTC  c75c8d538a81  heads_pair_g2_log.txt
+2026-11-15 21:04 UTC  ce360ae4848e  heads_pair_rules_g2.csv
+2026-11-15 21:09 UTC  9c92d927114a  heads_pair_explore_log_FAILED_1.txt
+2026-11-15 21:11 UTC  94487b634f77  heads_pair_explore_log.txt
+2026-11-15 21:11 UTC  c29b342f50cb  heads_pair_explore.csv

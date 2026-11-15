@@ -1,0 +1,9 @@
+Разведочный анализ ПОСЛЕ запуска опыта G (osf.io/8nxg7) — не правило регистрации.
+Traceback (most recent call last):
+  File "/Users/yernazar/Desktop/binding-vit/heads_pair_explore.py", line 104, in <module>
+    main()
+    ~~~~^^
+  File "/Users/yernazar/Desktop/binding-vit/heads_pair_explore.py", line 68, in main
+    diffs = {k: abs(mine[k] - ref[k]) for k in mine}
+                              ~~~^^^
+KeyError: 'одна 4.8'
