@@ -132,3 +132,6 @@
 2026-11-15 21:09 UTC  9c92d927114a  heads_pair_explore_log_FAILED_1.txt
 2026-11-15 21:11 UTC  94487b634f77  heads_pair_explore_log.txt
 2026-11-15 21:11 UTC  c29b342f50cb  heads_pair_explore.csv
+2026-11-16 07:27 UTC  0c0d238ba44b  heads_pair_plus.csv
+2026-11-16 07:27 UTC  526ec1b11a2f  heads_pair_plus_log.txt
+2026-11-16 07:27 UTC  80322ba1f5be  heads_pair_plus_rules.csv
