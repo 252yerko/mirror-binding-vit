@@ -1,0 +1,29 @@
+=== epoch 40 per seed (far bg left/upper %, ratio, d_lr, d_ud, CLS left/upper)
+1 0 L 51.82 U 85.78 gap 33.95 ratio 0.117 [0.111,0.124] dlr 2.635e-03 dud 2.244e-02 CLS L 51.10 U 85.50 q_lr 0.146 q_ud 0.623
+1 1 L 52.18 U 85.97 gap 33.80 ratio 0.176 [0.165,0.186] dlr 3.125e-03 dud 1.780e-02 CLS L 51.28 U 85.52 q_lr 0.179 q_ud 0.670
+1 2 L 51.88 U 86.25 gap 34.38 ratio 0.126 [0.117,0.137] dlr 1.369e-03 dud 1.084e-02 CLS L 51.70 U 84.47 q_lr 0.115 q_ud 0.460
+1 3 L 53.42 U 85.82 gap 32.40 ratio 0.159 [0.150,0.170] dlr 3.136e-03 dud 1.972e-02 CLS L 50.58 U 84.65 q_lr 0.177 q_ud 0.785
+2 0 L 52.30 U 86.00 gap 33.70 ratio 0.094 [0.088,0.100] dlr 1.884e-03 dud 2.013e-02 CLS L 51.28 U 84.55 q_lr 0.127 q_ud 0.661
+2 1 L 51.42 U 86.55 gap 35.12 ratio 0.184 [0.174,0.196] dlr 3.037e-03 dud 1.650e-02 CLS L 50.95 U 84.70 q_lr 0.193 q_ud 0.702
+2 2 L 51.75 U 86.30 gap 34.55 ratio 0.179 [0.169,0.190] dlr 3.253e-03 dud 1.819e-02 CLS L 51.42 U 85.35 q_lr 0.132 q_ud 0.566
+2 3 L 51.58 U 85.00 gap 33.42 ratio 0.144 [0.136,0.154] dlr 4.093e-03 dud 2.834e-02 CLS L 50.50 U 85.15 q_lr 0.166 q_ud 0.768
+3 0 L 50.98 U 51.18 gap 0.20 ratio 0.608 [0.575,0.644] dlr 1.613e-03 dud 2.654e-03 CLS L 50.52 U 52.55 q_lr 0.120 q_ud 0.149
+3 1 L 51.10 U 53.25 gap 2.15 ratio 1.171 [1.102,1.253] dlr 2.435e-03 dud 2.079e-03 CLS L 50.55 U 51.30 q_lr 0.244 q_ud 0.217
+3 2 L 51.25 U 52.23 gap 0.97 ratio 1.317 [1.227,1.417] dlr 1.436e-03 dud 1.090e-03 CLS L 50.60 U 51.28 q_lr 0.158 q_ud 0.139
+3 3 L 50.95 U 51.02 gap 0.07 ratio 1.240 [1.170,1.311] dlr 2.046e-03 dud 1.651e-03 CLS L 51.20 U 51.05 q_lr 0.157 q_ud 0.136
+
+H1: upper c1 [85.78, 85.97, 86.25, 85.82] c3 [51.18, 53.25, 52.23, 51.02] all c3<c1: True diff means 34.04 -> confirmed
+H2 ratio: c1 [0.1174, 0.1756, 0.1263, 0.1591] c2 [0.0936, 0.1841, 0.1788, 0.1444] diff(c2-c1) 0.0057 90%CI [-0.0441,0.0555] df 5.18 SESOI ±0.15
+H2 left: c1 [51.825, 52.175, 51.875, 53.425] c2 [52.3, 51.425, 51.75, 51.575] diff(c2-c1) -0.5625 90%CI [-1.4332,0.3082] df 4.46 SESOI ±3
+H2 -> equivalent
+
+random nets ratio [lo,hi]: [('100', 0.879, 0.819, 0.94), ('101', 0.956, 0.896, 1.021), ('102', 0.989, 0.925, 1.061)]
+H4 c1s0: early 1:0.193, 2:0.559, 3:0.611, 5:0.556  ep0 1.047 ep40 0.117 peak>1.2 False below_rand_hi True below_rand_lo True -> False
+H4 c1s1: early 1:0.478, 2:1.114, 3:3.538, 5:2.025  ep0 1.030 ep40 0.176 peak>1.2 True below_rand_hi True below_rand_lo True -> True
+H4 c1s2: early 1:0.444, 2:0.263, 3:0.187, 5:0.803  ep0 0.989 ep40 0.126 peak>1.2 False below_rand_hi True below_rand_lo True -> False
+H4 c1s3: early 1:2.538, 2:1.071, 3:0.999, 5:0.572  ep0 0.899 ep40 0.159 peak>1.2 True below_rand_hi True below_rand_lo True -> True
+H4 c2s0: early 1:0.384, 2:0.834, 3:0.578, 5:0.632  ep0 1.047 ep40 0.094 peak>1.2 False below_rand_hi True below_rand_lo True -> False
+H4 c2s1: early 1:0.437, 2:2.219, 3:1.537, 5:1.242  ep0 1.030 ep40 0.184 peak>1.2 True below_rand_hi True below_rand_lo True -> True
+H4 c2s2: early 1:0.540, 2:0.438, 3:0.702, 5:0.937  ep0 0.989 ep40 0.179 peak>1.2 False below_rand_hi True below_rand_lo True -> False
+H4 c2s3: early 1:3.642, 2:1.542, 3:0.567, 5:0.525  ep0 0.899 ep40 0.144 peak>1.2 True below_rand_hi True below_rand_lo True -> True
+H4 -> not confirmed (4 of 8)

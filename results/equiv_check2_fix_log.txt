@@ -1,0 +1,5 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+  Проверка 8: сетка (14, 14); служебных токенов 1; блоков 12; нормировка (0.5, 0.5, 0.5)/(0.5, 0.5, 0.5)  ✅
+AugReg B/16: отпечаток 6027.0771; с no_grad: разница 0.00e+00 ✅; без no_grad (как в equiv_nets.py): 4.52e-03; forward_features с/без no_grad: 4.52e-03; макс. |признак| 53.7 (относительная разница без no_grad 8.4e-05)
+  Проверка 8: сетка (14, 14); служебных токенов 1; блоков 24; нормировка (0.5, 0.5, 0.5)/(0.5, 0.5, 0.5)  ✅
+AugReg L/16: отпечаток 9739.2549; с no_grad: разница 0.00e+00 ✅; без no_grad (как в equiv_nets.py): 3.74e-04; forward_features с/без no_grad: 3.74e-04; макс. |признак| 42.3 (относительная разница без no_grad 8.8e-06)
