@@ -98,6 +98,8 @@ Findings 1–5, 12 and 14 are correlations across models on synthetic scenes; fi
 
 *Figure 1. (A) Left–right vs. up–down mirror sensitivity of the CLS token across layers. (B) D, read from the CLS token: information about the side (left vs. right) lost beyond a general weakening of horizontal position. Gray: random-initialized networks.*
 
+The four figures of the paper, drawn in one style from the CSV files in [`results/`](results/) (nothing is recomputed from the networks; the script checks the plotted summary numbers against this README and the logs), are in [`figures/paper/`](figures/paper/): Figure 1, the same data as above; Figure 2, mirror sensitivity against the binding gap and against R in 24 networks (OSF xyedr); Figure 3, the mirror pairs of attention heads (OSF 8nxg7, 7tsgq); Figure 4, the training study (OSF ducms).
+
 ## How to run
 
 ```bash
@@ -157,6 +159,7 @@ bash run_measure_ducms.sh                              # measures of all 12 trai
 python e_full_rules_ducms.py                           # rules H1, H2, H4 (set the folder with the CSVs at the top of the file)
 python e_train_kaggle_c67.py --cond 6 --seed 0         # ordered / unordered image pairs (conditions 6, 7; ~5.7 h each on a T4); kaggle_cell_c67.py runs both on Kaggle
 python figure1.py                                      # Figure 1
+python figures_paper.py --res results --work <folder> --out figures/paper  # Figures 1–4 of the paper (<folder>: where probe_fold.py saved its .npz files)
 ```
 
 Each script's header (in Russian) explains what it tests, the decision rule and its built-in checks; English versions of the rules are in [`PREDICTIONS_AND_RULES.md`](PREDICTIONS_AND_RULES.md). Activations and generated images are not stored in the repository; the scripts recreate them. The original outputs (small CSVs and logs) are in [`results/`](results/).
@@ -200,3 +203,4 @@ Each script's header (in Russian) explains what it tests, the decision rule and 
 | `e_train_kaggle_c67.py`, `e_measure_full_c67.py`, `kaggle_cell_c67.py` | Ordered vs. unordered image pairs (OSF pxaz4): training with two output heads, the same measures, and the Kaggle cell that embeds the training code and checks its md5 |
 | `clip_check.py` | Checks that CLIP weights and preprocessing are loaded correctly |
 | `figure1.py` | Figure 1 |
+| `figures_paper.py` | Figures 1–4 of the paper in one style, from the CSV files in `results/`, with a check of the plotted summary numbers (log: `results/figures_paper_log.txt`) |
