@@ -157,9 +157,11 @@ assert abs(rho1 - float(rule["B1"]["rho"])) < 1e-9 and abs(rho2 - float(rule["B2
 xr, gr = f(rd, "ratio"), f(rd, "gap") * 100
 print(f"  7 случайных сетей: чувствительность {xr.min():.3f}–{xr.max():.3f}; разрыв {gr.min():.1f}…{gr.max():.1f} п.п.")
 
-LAB = {"DINO B/16": (-5, -1, "right"), "DINO S/16": (5, 3, "left"), "DeiT III L/16": (5, 2, "left"),
-       "MAE B/16": (5, -3, "left"), "MAE L/16": (-5, -9, "right"), "AugReg L/16": (-5, 5, "right"),
-       "CLIP-OpenAI B/16": (5, -7, "left"), "DFN B/16": (5, -7, "left")}
+# подписи с выносными линиями: у каждой подписи видно, к какой точке она относится
+LAB = {"DINO B/16": (-6, 12, "right"), "DINO S/16": (16, 4, "left"), "DeiT III L/16": (12, 6, "left"),
+       "MAE B/16": (12, -9, "left"), "MAE L/16": (-6, -16, "right"), "AugReg L/16": (6, 12, "left"),
+       "AugReg B/16": (8, 18, "left"), "CLIP-OpenAI B/16": (14, 10, "left"), "DFN B/16": (-6, -16, "right")}
+LEAD = dict(arrowstyle="-", color=INK2, lw=0.4, shrinkA=0, shrinkB=2.5)
 fig, axs = plt.subplots(1, 2, figsize=(WIDTH, 2.7))
 ax = axs[0]
 ax.errorbar(x, gap, xerr=[x - f(tr, "ratio_lo"), f(tr, "ratio_hi") - x],
@@ -172,12 +174,13 @@ ax.axvline(1, color=INK2, lw=0.6, ls=(0, (3, 3)))
 for r, xi, gi in zip(tr, x, gap):
     if r["name"] in LAB:
         dx, dy, ha = LAB[r["name"]]
-        ax.annotate(r["name"], (xi, gi), xytext=(dx, dy), textcoords="offset points", fontsize=6.5, color=INK2, ha=ha)
+        ax.annotate(r["name"], (xi, gi), xytext=(dx, dy), textcoords="offset points", fontsize=6.5, color=INK2, ha=ha,
+                    va="center", arrowprops=LEAD)
 ax.set_xlim(0.15, 1.1)
 ax.set_xlabel(r"mirror sensitivity  $d_{\leftrightarrow}/d_{\updownarrow}$ (patch mean)")
 ax.set_ylabel('gap "upper" − "left" (pp)')
 letter(ax, "a")
-ax.legend(loc="upper right")
+ax.legend(loc="lower left", bbox_to_anchor=(0.0, 0.1))
 grid(ax)
 
 ax = axs[1]
@@ -185,11 +188,21 @@ ax.errorbar(x, Rr, yerr=[Rr - f(tr, "R_lo"), f(tr, "R_hi") - Rr], fmt="none", ec
 ax.scatter(x, Rr, s=14, color=BLUE, edgecolor="white", lw=0.6, zorder=3)
 ax.axhline(0.5, color=INK2, lw=0.6, ls=(0, (3, 3)))
 ax.axhline(1.0, color=INK2, lw=0.6, ls=(0, (1, 2)))
+LABB = {"DINO B/16": ((8, -12), "left"), "DFN B/16": ((-6, 16), "right"), "AugReg S/16": ((10, 8), "left"),
+        "AugReg B/16": ((16, 20), "left"), "AugReg L/16": ((8, 14), "left")}
 for r, xi, ri in zip(tr, x, Rr):
-    if r["name"] in ("DINO B/16", "DFN B/16", "AugReg S/16", "AugReg B/16"):
-        off, ha = {"DINO B/16": ((2, -10), "left"), "DFN B/16": ((3, 7), "left")}.get(r["name"], ((5, 2), "left"))
-        ax.annotate(r["name"], (xi, ri), xytext=off, textcoords="offset points", fontsize=6.5, color=INK2, ha=ha)
-ax.set_ylim(-0.2, max(2.6, (f(tr, "R_hi")).max() + 0.1))
+    if r["name"] in LABB:
+        off, ha = LABB[r["name"]]
+        ax.annotate(r["name"], (xi, ri), xytext=off, textcoords="offset points", fontsize=6.5, color=INK2, ha=ha,
+                    va="center", arrowprops=LEAD)
+YTOP = 3.0   # одна сеть с очень широким интервалом обрезается стрелкой, чтобы не сжимать область 0–1
+for r, xi, hi in zip(tr, x, f(tr, "R_hi")):
+    if hi > YTOP:
+        ax.annotate(f"{r['name']}: to {hi:.1f}", (xi, YTOP), xytext=(-4, -6), textcoords="offset points",
+                    fontsize=6, color=INK2, ha="right", va="top")
+        ax.plot([xi], [YTOP - 0.04], marker="^", ms=3, color=BLUE, alpha=0.6, clip_on=False)
+        print(f"  рис. 2b: интервал R у {r['name']} обрезан на {YTOP} (верхняя граница {hi:.2f})")
+ax.set_ylim(-0.2, YTOP)
 ax.set_xlabel(r"mirror sensitivity  $d_{\leftrightarrow}/d_{\updownarrow}$ (patch mean)")
 ax.set_ylabel(r"$R$ (share of the gap in the antisymmetric part)")
 letter(ax, "b")
@@ -220,8 +233,8 @@ lim = np.abs(DX).max()
 im = ax.imshow(DX, cmap=BLUE_ORANGE, norm=TwoSlopeNorm(0, -lim, lim), aspect="auto")
 for (b, h) in ((3, 4), (3, 5)):
     ax.add_patch(plt.Rectangle((h - 0.5, b - 0.5), 1, 1, fill=False, ec=INK, lw=1.0))
-ax.annotate("4.4", (4, 3), xytext=(2.3, 6.3), fontsize=7, arrowprops=dict(arrowstyle="-", color=INK2, lw=0.5))
-ax.annotate("4.5", (5, 3), xytext=(6.7, 6.3), fontsize=7, arrowprops=dict(arrowstyle="-", color=INK2, lw=0.5))
+ax.text(4, 3, "4.4", ha="center", va="center", fontsize=4.5, color="white", fontweight="bold")
+ax.text(5, 3, "4.5", ha="center", va="center", fontsize=4.5, color="white", fontweight="bold")
 ax.set_xticks(range(12))
 ax.set_yticks(range(12))
 ax.set_yticklabels(range(1, 13))
@@ -253,7 +266,7 @@ ax.legend(loc="lower right", handletextpad=0.2)
 grid(ax)
 
 ax = fig.add_subplot(gs[1, 0])
-items = [("4.4", "одна 4.4", BLUE), ("4.5", "одна 4.5", BLUE), ("4.4 + 4.5", "пара, один донор", INK),
+items = [("4.4", "одна 4.4", BLUE), ("4.5", "одна 4.5", ORANGE), ("4.4 + 4.5", "пара, один донор", INK),
          ("4.7", "контроль 4.7", GRAY), ("4.8", "контроль 4.8", GRAY), ("4.9", "контроль 4.9", GRAY)]
 for i, (lab, key, col) in enumerate(items):
     r = G[key]
@@ -286,7 +299,7 @@ for xpos, key, col in sets:
     ax.errorbar(xpos, v, yerr=[[v - l], [h - v]], fmt="o", color=col, ms=3.5, lw=1.0)
 ax.axhline(0, color=INK2, lw=0.6)
 ax.set_xticks([0, 0.5, 1, 2, 2.55])
-ax.set_xticklabels(["6 right", "random 6", "6 left", "random 12", "all 12"])
+ax.set_xticklabels(["6 right-\nward", "random\n6", "6 left-\nward", "random\n12", "all\n12"])
 ax.set_xlabel("heads replaced (DeiT III)")
 ax.set_ylabel(r'$\Delta$ "left" (pp)')
 letter(ax, "d", "DeiT III: one vs. both heads of every pair")
